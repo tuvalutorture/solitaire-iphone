@@ -229,14 +229,11 @@ CGImageRef compositeCard(SolitaireCardValue card) { // pure, cg glory. make sure
 	return cardImage;
 }
 
-CGImageRef compositeStack(SolitaireCard *firstCard) {
-	int cardCount = 1, flipped = 0;
-	SolitaireCard *currentCard = firstCard;
-	while ((currentCard = currentCard->child) != NULL) { 
-		cardCount++;
-		flipped += currentCard->flipped;
-	}
-	currentCard = firstCard;
+CGImageRef compositeStack(CFArrayRef stack) {
+	int cardCount = CFArrayGetCount(stack), flipped = 0;
+	for (int i = 0; i < cardCount; i++) flipped += ((SolitaireCard*)CFArrayGetValueAtIndex(stack, i))->flipped;
+	
+	SolitaireCard *firstCard = ((SolitaireCard*)CFArrayGetValueAtIndex(stack, 0));
 	
 	CGFloat height = (cardCount - 1 - flipped) * (15.0f - (cardCount / 2) - (cardCount >= 13)) + firstCard->height + ((11.0f - (cardCount / 2) - (cardCount >= 13)) * flipped);
 	CGColorSpaceRef compositorColourSpace = CGColorSpaceCreateDeviceRGB();
@@ -244,10 +241,10 @@ CGImageRef compositeStack(SolitaireCard *firstCard) {
 	CGColorSpaceRelease(compositorColourSpace);
 	
 	CGRect imageRect = CGRectMake(0.0f, height - firstCard->height, firstCard->width, firstCard->height);
-	while (currentCard != NULL) {
+	for (int i = 0; i < cardCount; i++) {
+		SolitaireCard *currentCard = ((SolitaireCard*)CFArrayGetValueAtIndex(stack, i));
 		CGContextDrawImage(compositorContext, imageRect, getImage(currentCard));
 		imageRect.origin.y -= (currentCard->flipped ? 11.0f : 15.0f) - (cardCount / 2) - (cardCount >= 13);
-		currentCard = currentCard->child;
 	}
 	CGImageRef compositedStack = CGBitmapContextCreateImage(compositorContext);
 	CGContextRelease(compositorContext);

@@ -6,7 +6,10 @@
 //  Copyright 2026 __MyCompanyName__. All rights reserved.
 //
 
+#import <QuartzCore/QuartzCore.h>
 #import <CoreGraphics/CoreGraphics.h>
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #define SolitaireSuitMask 0xF0
 #define SolitaireValueMask 0x0F
@@ -45,8 +48,6 @@ struct SolitaireCard { // does not need to be an objc object ffs. anyways we typ
 	BOOL flipped;
 	BOOL selected;
 	SolitaireCardValue value; // saves memory (up to 2 bytes per card, not a lot but 52 cards across 128mb and that do add up) and looks kewler to do bitwise shit
-	SolitaireCard *child; // hey... this looks like... 
-	SolitaireCard *parent; // a linked list T_T
 	CGFloat height; // takes extra bytes but is worth holding for speed
 	CGFloat width;
 };
@@ -54,7 +55,7 @@ struct SolitaireCard { // does not need to be an objc object ffs. anyways we typ
 CGImageRef loadPNG(CFStringRef);
 
 CGImageRef compositeCard(SolitaireCardValue);
-CGImageRef compositeStack(SolitaireCard *);
+CGImageRef compositeStack(CFArrayRef);
 
 void loadCardAssets(void);
 void deloadCardAssets(void);
@@ -74,8 +75,6 @@ static inline CGImageRef getImage(SolitaireCard* card) {
 	return card->flipped ? card->backImage : (card->selected ? card->inverted : card->faceImage);
 }
 static inline void resetAttributes(SolitaireCard* card) { // resets all OPTIONAL attributes to 0, while retaining any important data like size / images / value
-	card->parent = NULL;
-	card->child = NULL;
 	card->flipped = NO;
 	card->selected = NO;
 }

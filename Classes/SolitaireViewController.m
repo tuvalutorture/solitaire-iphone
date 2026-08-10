@@ -33,7 +33,11 @@
 	gameButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	[gameButton addTarget:theController action:@selector(newGame:) forControlEvents:UIControlEventTouchUpInside];
 	[gameButton setTitle:@"New Game" forState:UIControlStateNormal];
-	[self addSubview:gameButton];
+	[self addSubview:gameButton]; 
+	undoButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+	[undoButton addTarget:theController action:@selector(undo:) forControlEvents:UIControlEventTouchUpInside];
+	[undoButton setTitle:@"Undo" forState:UIControlStateNormal];
+	[self addSubview:undoButton];
 	scoreView = [UITextField new];
 	[scoreView setBorderStyle:UITextBorderStyleRoundedRect];
 	[scoreView setUserInteractionEnabled:NO];
@@ -87,24 +91,25 @@
 	CGRect elementRect = CGRectMake(SolitaireViewPadding, newSize.height - SolitaireBottomHeight - 2, (newSize.width - (SolitaireViewPadding * 5)) / 4, SolitaireBottomHeight);
 	[timeView setFrame:elementRect];
 	elementRect.origin.x += SolitaireViewPadding + elementRect.size.width;
-	CGFloat gameSize = SolitaireViewPadding + elementRect.size.width * 2;
-	[gameButton setFrame:CGRectMake(elementRect.origin.x, elementRect.origin.y, gameSize, elementRect.size.height)];
-	elementRect.origin.x += gameSize + SolitaireViewPadding;
+	[gameButton setFrame:elementRect];
+	elementRect.origin.x += SolitaireViewPadding + elementRect.size.width;
+	[undoButton setFrame:elementRect];
+	elementRect.origin.x += SolitaireViewPadding + elementRect.size.width;
 	[scoreView setFrame:elementRect];
 }
 
 - (void)drawTableStack:(NSInteger)targetTableStack {
 	if (targetTableStack >= 7 || targetTableStack < 0) return;
-	SolitaireTableStack tableStack = _tableStacks[targetTableStack];
+	CFMutableArrayRef tableStack = (CFMutableArrayRef)CFArrayGetValueAtIndex(_tableStacks, targetTableStack);
 	CGRect frame = tableStackFrames[targetTableStack];
 	CGContextClearRect(_context, frame);
-	if (tableStack.topCard == NULL) {
+	if (CFArrayGetCount(tableStack) < 1) {
 		CGFloat newY = frame.origin.y + (tableStackFrames[targetTableStack].size.height - CGImageGetHeight(blankImage));
 		tableStackFrames[targetTableStack] = CGRectMake(frame.origin.x, newY, CGImageGetWidth(blankImage), CGImageGetHeight(blankImage)); 
 		CGContextDrawImage(_context, tableStackFrames[targetTableStack], blankImage);
 		return;
 	}
-	CGImageRef renderedStack = compositeStack(tableStack.topCard);
+	CGImageRef renderedStack = compositeStack(tableStack);
 	CGFloat height = CGImageGetHeight(renderedStack);
 	frame.origin.y = [self frame].size.height - (SolitaireViewPadding * 2) - height - CGImageGetHeight(blankImage);
 	frame.size.height = height;
@@ -115,32 +120,32 @@
 }
 - (void)drawFoundation:(NSInteger)targetFoundation {
 	if (targetFoundation >= 4 || targetFoundation < 0) return;
-	SolitaireFoundation theFoundation = _foundations[targetFoundation];
+	CFMutableArrayRef theFoundation = (CFMutableArrayRef)CFArrayGetValueAtIndex(_foundations, targetFoundation);
 	CGRect theFrame = foundationFrames[targetFoundation];
 	CGContextClearRect(_context, theFrame);
-	if (theFoundation == NULL) CGContextDrawImage(_context, theFrame, blankImage);
-	else CGContextDrawImage(_context, theFrame, getImage((SolitaireCard*)theFoundation));
+	if (CFArrayGetCount(theFoundation) < 1) CGContextDrawImage(_context, theFrame, blankImage);
+	else CGContextDrawImage(_context, theFrame, getImage((SolitaireCard*)CFArrayGetValueAtIndex(theFoundation, CFArrayGetCount(theFoundation) - 1)));
 	[self render];
 }
 - (void)drawDrawPile {
 	CGContextClearRect(_context, drawPileFrame);
-	CGContextDrawImage(_context, drawPileFrame, _drawPile->pile == NULL ? blankImage : getImage(_drawPile->pile));
+	SolitaireCard *pileCard = CFArrayGetCount(_drawPile->pile) == _drawPile->index ? NULL : (SolitaireCard*)CFArrayGetValueAtIndex(_drawPile->pile, _drawPile->index);
+	CGContextDrawImage(_context, drawPileFrame, pileCard == NULL ? blankImage : getImage(pileCard));
 	for (int i = 0; i < 3; i++) CGContextClearRect(_context, drawPileCardFrames[i]);
-	if (_drawPile->first) CGContextDrawImage(_context, drawPileCardFrames[0], getImage(_drawPile->first)); 
-	if (_drawPile->second != NULL) CGContextDrawImage(_context, drawPileCardFrames[1], getImage(_drawPile->second));
-	if (_drawPile->third != NULL) CGContextDrawImage(_context, drawPileCardFrames[2], getImage(_drawPile->third));
+	NSInteger displayed = _drawPile->displayed;
+	for (int i = 0; i < displayed; i++) CGContextDrawImage(_context, drawPileCardFrames[i], getImage((SolitaireCard*)CFArrayGetValueAtIndex(_drawPile->pile, _drawPile->index - displayed + i)));
 	[self render];
 }
 
-- (SolitaireTableStack*)stackForPoint:(CGPoint)point {	
+- (CFMutableArrayRef)stackForPoint:(CGPoint)point {	
 	for (int i = 0; i < 7; i++) {
-		if (CGRectContainsPoint(tableStackFrames[i], point)) return &_tableStacks[i];
+		if (CGRectContainsPoint(tableStackFrames[i], point)) return (CFMutableArrayRef)CFArrayGetValueAtIndex(_tableStacks, i);
 	}
 	return NULL;
 }
-- (SolitaireFoundation*)foundationForPoint:(CGPoint)point {
+- (CFMutableArrayRef)foundationForPoint:(CGPoint)point {
 	for (int i = 0; i < 4; i++) {
-		if (CGRectContainsPoint(foundationFrames[i], point)) return &_foundations[i];
+		if (CGRectContainsPoint(foundationFrames[i], point)) return (CFMutableArrayRef)CFArrayGetValueAtIndex(_foundations, i);
 	}
 	return NULL;
 }
@@ -148,50 +153,36 @@
 	return CGRectContainsPoint(drawPileFrame, point) ? _drawPile : NULL;
 }
 
-- (SolitaireCard*)tableStackCard:(CGPoint)point {
-	SolitaireTableStack *stack = [self stackForPoint:point];
-	if (stack == NULL || stack->topCard == NULL || stack->bottomCard == NULL) return NULL;
-	int count = 0;
-	SolitaireCard *cardCounter = stack->topCard;
-	while (cardCounter != NULL) {
-		cardCounter = cardCounter->child;
-		count += 1;
-	}
+- (NSInteger)tableStackCard:(CGPoint)point {
+	CFMutableArrayRef stack = [self stackForPoint:point];
+	if (stack == NULL || CFArrayGetCount(stack) < 1) return -1;
+	int count = CFArrayGetCount(stack);
 	CGFloat distance = 15.0f - (count / 2) - (count >= 13);
 	CGRect baseFrame;
 	for (int i = 0; i < 7; i++) {
 		if (CGRectContainsPoint((baseFrame = tableStackFrames[i]), point)) break;
 	}
-	baseFrame.size.width = stack->bottomCard->width;
-	baseFrame.size.height = stack->bottomCard->height;
-	if (CGRectContainsPoint(baseFrame, point)) return stack->bottomCard;
-	SolitaireCard *currentCard = stack->bottomCard->parent;
+	SolitaireCard *bottomCard = (SolitaireCard*)CFArrayGetValueAtIndex(stack, count - 1);
+	baseFrame.size.width = bottomCard->width;
+	baseFrame.size.height = bottomCard->height;
+	if (CGRectContainsPoint(baseFrame, point)) return count - 1;
 	CGRect currentFrame = baseFrame;
 	currentFrame.size.height = distance;
 	currentFrame.origin.y += baseFrame.size.height;
-	for (int i = 1; i < count && currentCard != NULL; i++) {
-		if (CGRectContainsPoint(currentFrame, point) && !currentCard->flipped) return currentCard;
-		currentCard = currentCard->parent;
+	for (int i = count - 2; i >= 0; i--) {
+		if (CGRectContainsPoint(currentFrame, point) && !((SolitaireCard*)CFArrayGetValueAtIndex(stack, i))->flipped) return i;
 		currentFrame.origin.y += distance;
 		if (currentFrame.origin.y > point.y) break;
 	}
-	return NULL;
+	return -1;
 }
-- (SolitaireCard*)drawPileCard:(CGPoint)point {
+- (NSInteger)drawPileCard:(CGPoint)point {
+	if (_drawPile->displayed < 1) return -1;
 	CGRect hitTest = drawPileCardFrames[0];
-	hitTest.size.width = (drawPileCardFrames[2].origin.x + drawPileCardFrames[2].size.width) - drawPileCardFrames[0].origin.x;
-	if (!CGRectContainsPoint(hitTest, point)) return NULL;
-	CGFloat x = point.x;
-	CGFloat low = drawPileCardFrames[0].origin.x;
-	CGFloat high = _drawPile->second != NULL ? low + SolitaireViewPadding : low + drawPileCardFrames[0].size.width;
-	if (x >= low && x <= high) return _drawPile->first;
-	low = high;
-	high += _drawPile->third != NULL ? SolitaireViewPadding : drawPileCardFrames[1].size.width;
-	if (x >= low && x <= high) return _drawPile->second;
-	low = high;
-	high += drawPileCardFrames[2].size.width;
-	if (x >= low && x <= high) return _drawPile->third;
-	return NULL;
+	hitTest.origin.x = drawPileCardFrames[0].origin.x + ((_drawPile->displayed - 1) * SolitaireViewPadding);
+	hitTest.size.width = hitTest.origin.x + drawPileCardFrames[0].size.width;
+	if (CGRectContainsPoint(hitTest, point)) return _drawPile->index - 1;
+	return -1;
 }
 
 - (CGPoint)convertToCGPointFromUIKitPoint:(CGPoint)UIKitPoint {
@@ -207,28 +198,29 @@
 	SolitaireDrawPile *pile;
 	if ((pile = [self drawPileForPoint:atPoint]) != NULL) {
 		[controller hitDrawPile];
+		selection.index = -1;
 		goto sendSelection;
 	}
-	SolitaireCard *drawnCard;
-	if ((drawnCard = [self drawPileCard:atPoint]) != NULL) {
+	NSInteger drawnCard;
+	if ((drawnCard = [self drawPileCard:atPoint]) != -1) {
 		selection.selection = SolitaireStackDrawPileDrawn;
-		selection.selectedCard = drawnCard;
-		selection.selectionReference = _drawPile;
+		selection.index = drawnCard;
+		selection.selected = _drawPile->pile; 
 		goto sendSelection;
 	}
-	SolitaireTableStack *stack;
+	CFMutableArrayRef stack;
 	if ((stack = [self stackForPoint:atPoint]) != NULL) {
-		SolitaireCard* theCard = [self tableStackCard:atPoint];
 		selection.selection = SolitaireStackTable;
-		selection.selectedCard = theCard;
-		selection.selectionReference = stack;
+		selection.index = [self tableStackCard:atPoint];
+		selection.selected = stack;
 		goto sendSelection;
 	}
-	SolitaireFoundation *theFoundation;
+	CFMutableArrayRef theFoundation;
 	if ((theFoundation = [self foundationForPoint:atPoint]) != NULL) {
 		selection.selection = SolitaireStackFoundation;
-		selection.selectedCard = *theFoundation;
-		selection.selectionReference = theFoundation;
+		if (CFArrayGetCount(theFoundation) > 0) selection.index = CFArrayGetCount(theFoundation) - 1;
+		else selection.index = -1;
+		selection.selected = theFoundation;
 		goto sendSelection;
 	}
 	
@@ -246,13 +238,7 @@
 	}
 	int minutes = seconds / 60;
 	seconds -= minutes * 60;
-	int hours = minutes / 60;
-	minutes -= hours * 60;
-	if (hours > 0) {
-		[timeView setText:[NSString stringWithFormat:@"Time: %d:%02d:02d", hours, minutes, seconds]];
-	} else {
-		[timeView setText:[NSString stringWithFormat:@"Time: %01d:%02d", minutes, seconds]];
-	}
+	[timeView setText:[NSString stringWithFormat:@"Time: %01d:%02d", minutes, seconds]];
 }
 - (void)showScore:(NSInteger)score {
 	if (score == -1) {

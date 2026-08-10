@@ -16,8 +16,8 @@
 @class SolitaireGameController;
 
 @interface SolitaireGameView : UIImageView {
-	SolitaireTableStack *_tableStacks;
-	SolitaireFoundation *_foundations;
+	CFMutableArrayRef _tableStacks;
+	CFMutableArrayRef _foundations;
 	SolitaireDrawPile *_drawPile;
 	
 	CGRect foundationFrames[4];
@@ -33,6 +33,7 @@
 	
 	UITextField *timeView;
 	UIButton *gameButton; // end/new game
+	UIButton *undoButton;
 	UITextField *scoreView;
 	CGRect bottomFrame;
 }
@@ -50,8 +51,8 @@
 - (void)showTime:(int)seconds;
 - (void)showScore:(NSInteger)score;
 
-- (SolitaireTableStack*)stackForPoint:(CGPoint)point; // returns NULL if no overlap
-- (SolitaireFoundation*)foundationForPoint:(CGPoint)point;
+- (CFMutableArrayRef)stackForPoint:(CGPoint)point; // returns NULL if no overlap
+- (CFMutableArrayRef)foundationForPoint:(CGPoint)point;
 - (SolitaireDrawPile*)drawPileForPoint:(CGPoint)point;
 
 - (CGPoint)convertToCGPointFromUIKitPoint:(CGPoint)UIKitPoint;
