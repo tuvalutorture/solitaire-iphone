@@ -56,8 +56,6 @@
 - (SolitaireDrawPile*)drawPileForPoint:(CGPoint)point;
 
 - (CGPoint)convertToCGPointFromUIKitPoint:(CGPoint)UIKitPoint;
-
-- (void)clicked:(CGPoint)atPoint;
 @end
 
 

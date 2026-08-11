@@ -26,7 +26,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 177";
 		rLen = 5;
-		rLoc = 17675;
+		rLoc = 21596;
 		rType = 0;
 		vrLen = 1577;
 		vrLoc = 3879;
@@ -36,7 +36,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 245";
 		rLen = 0;
-		rLoc = 11841;
+		rLoc = 11875;
 		rType = 0;
 		vrLen = 3100;
 		vrLoc = 9209;
@@ -46,7 +46,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 197";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 2618;
 		vrLoc = 4374;
@@ -56,7 +56,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 34";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 769;
 		rType = 0;
 		vrLen = 2545;
 		vrLoc = 0;
@@ -76,7 +76,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 255";
 		rLen = 0;
-		rLoc = 12585;
+		rLoc = 12619;
 		rType = 0;
 		vrLen = 2886;
 		vrLoc = 9769;
@@ -96,7 +96,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 34";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 769;
 		rType = 0;
 		vrLen = 2545;
 		vrLoc = 0;
@@ -116,7 +116,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 175";
 		rLen = 0;
-		rLoc = 6096;
+		rLoc = 6001;
 		rType = 0;
 		vrLen = 3598;
 		vrLoc = 1747;
@@ -136,7 +136,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 155";
 		rLen = 0;
-		rLoc = 5208;
+		rLoc = 5107;
 		rType = 0;
 		vrLen = 3164;
 		vrLoc = 4284;
@@ -156,7 +156,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 155";
 		rLen = 0;
-		rLoc = 5208;
+		rLoc = 5107;
 		rType = 0;
 		vrLen = 2580;
 		vrLoc = 3;
@@ -176,7 +176,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 55";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 769;
 		rType = 0;
 		vrLen = 2581;
 		vrLoc = 0;
@@ -196,7 +196,7 @@
 		fRef = 239D65213013E1C90072024B /* SolitaireGameController.h */;
 		name = "SolitaireGameController.h: 92";
 		rLen = 0;
-		rLoc = 3057;
+		rLoc = 3092;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 2738;
@@ -216,7 +216,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 158";
 		rLen = 0;
-		rLoc = 5303;
+		rLoc = 5202;
 		rType = 0;
 		vrLen = 448;
 		vrLoc = 6497;
@@ -226,7 +226,7 @@
 		fRef = 239D65213013E1C90072024B /* SolitaireGameController.h */;
 		name = "SolitaireGameController.h: 92";
 		rLen = 0;
-		rLoc = 3057;
+		rLoc = 3092;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 2738;
@@ -236,7 +236,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 390";
 		rLen = 0;
-		rLoc = 17444;
+		rLoc = 21365;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 14305;
@@ -276,7 +276,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 158";
 		rLen = 0;
-		rLoc = 5303;
+		rLoc = 5202;
 		rType = 0;
 		vrLen = 2442;
 		vrLoc = 5345;
@@ -296,7 +296,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 127";
 		rLen = 0;
-		rLoc = 4164;
+		rLoc = 4063;
 		rType = 0;
 		vrLen = 2278;
 		vrLoc = 0;
@@ -306,7 +306,7 @@
 		fRef = 239D65213013E1C90072024B /* SolitaireGameController.h */;
 		name = "SolitaireGameController.h: 92";
 		rLen = 0;
-		rLoc = 3057;
+		rLoc = 3092;
 		rType = 0;
 		vrLen = 2268;
 		vrLoc = 470;
@@ -316,7 +316,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 107";
 		rLen = 0;
-		rLoc = 3424;
+		rLoc = 3323;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 0;
@@ -336,7 +336,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 118";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 3066;
 		vrLoc = 4140;
@@ -356,7 +356,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 231";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 2293;
 		vrLoc = 8978;
@@ -366,7 +366,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 340";
 		rLen = 0;
-		rLoc = 12404;
+		rLoc = 13404;
 		rType = 0;
 		vrLen = 2342;
 		vrLoc = 4928;
@@ -386,7 +386,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 48";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 769;
 		rType = 0;
 		vrLen = 3509;
 		vrLoc = 9014;
@@ -396,7 +396,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 230";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 3649;
 		vrLoc = 3660;
@@ -406,7 +406,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 122";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 397;
 		vrLoc = 6475;
@@ -416,7 +416,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 370";
 		rLen = 0;
-		rLoc = 17608;
+		rLoc = 21529;
 		rType = 0;
 		vrLen = 3027;
 		vrLoc = 0;
@@ -436,7 +436,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 370";
 		rLen = 0;
-		rLoc = 17608;
+		rLoc = 21529;
 		rType = 0;
 		vrLen = 2399;
 		vrLoc = 6369;
@@ -456,7 +456,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 121";
 		rLen = 0;
-		rLoc = 5195;
+		rLoc = 5094;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 4538;
@@ -466,7 +466,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 188";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 8328;
@@ -506,7 +506,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 127";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 3286;
 		vrLoc = 4198;
@@ -526,7 +526,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 127";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 3251;
 		vrLoc = 4233;
@@ -546,7 +546,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 127";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 3251;
 		vrLoc = 4233;
@@ -566,7 +566,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 127";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 3374;
 		vrLoc = 4233;
@@ -596,7 +596,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 187";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 2401;
 		vrLoc = 8759;
@@ -626,7 +626,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 252";
 		rLen = 0;
-		rLoc = 10524;
+		rLoc = 10697;
 		rType = 0;
 		vrLen = 3481;
 		vrLoc = 5564;
@@ -646,7 +646,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 233";
 		rLen = 0;
-		rLoc = 10765;
+		rLoc = 10799;
 		rType = 0;
 		vrLen = 2838;
 		vrLoc = 9656;
@@ -666,7 +666,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 151";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 3218;
 		vrLoc = 4881;
@@ -686,7 +686,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 16";
 		rLen = 0;
-		rLoc = 827;
+		rLoc = 826;
 		rType = 0;
 		vrLen = 2003;
 		vrLoc = 0;
@@ -706,7 +706,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 15";
 		rLen = 0;
-		rLoc = 827;
+		rLoc = 826;
 		rType = 0;
 		vrLen = 1971;
 		vrLoc = 0;
@@ -726,7 +726,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 174";
 		rLen = 0;
-		rLoc = 7420;
+		rLoc = 7325;
 		rType = 0;
 		vrLen = 2032;
 		vrLoc = 12273;
@@ -736,7 +736,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 245";
 		rLen = 0;
-		rLoc = 11665;
+		rLoc = 11699;
 		rType = 0;
 		vrLen = 3415;
 		vrLoc = 7209;
@@ -766,7 +766,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 135";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 2715;
 		vrLoc = 5147;
@@ -786,7 +786,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 228";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 3070;
 		vrLoc = 0;
@@ -796,7 +796,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 318";
 		rLen = 17;
-		rLoc = 17249;
+		rLoc = 21170;
 		rType = 0;
 		vrLen = 2505;
 		vrLoc = 11350;
@@ -816,7 +816,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 66";
 		rLen = 0;
-		rLoc = 3625;
+		rLoc = 3524;
 		rType = 0;
 		vrLen = 3433;
 		vrLoc = 1255;
@@ -826,7 +826,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 234";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 10814;
 		rType = 0;
 		vrLen = 3214;
 		vrLoc = 9373;
@@ -836,7 +836,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 238";
 		rLen = 0;
-		rLoc = 10557;
+		rLoc = 11716;
 		rType = 0;
 		vrLen = 3965;
 		vrLoc = 8326;
@@ -856,7 +856,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 238";
 		rLen = 0;
-		rLoc = 10557;
+		rLoc = 11716;
 		rType = 0;
 		vrLen = 3794;
 		vrLoc = 152;
@@ -866,7 +866,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 207";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 2804;
 		vrLoc = 7807;
@@ -876,7 +876,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 209";
 		rLen = 0;
-		rLoc = 8793;
+		rLoc = 8698;
 		rType = 0;
 		vrLen = 2693;
 		vrLoc = 6265;
@@ -886,7 +886,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 125";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 3751;
 		vrLoc = 3401;
@@ -896,39 +896,12 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 204";
 		rLen = 0;
-		rLoc = 8581;
+		rLoc = 8486;
 		rType = 0;
 		vrLen = 2916;
 		vrLoc = 6843;
 	};
-	2396C1243028D12F00C1A4EA /* SolitaireGameController.m:222 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 239D65223013E1C90072024B /* SolitaireGameController.m */;
-		functionName = "-hitDrawPile";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 222;
-		location = Solitaire;
-		modificationTime = 808062148.990227;
-		state = 2;
-	};
-	2396C1283028D13500C1A4EA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
-		name = "SolitaireViewController.m: 131";
-		rLen = 0;
-		rLoc = 8787;
-		rType = 0;
-		vrLen = 2856;
-		vrLoc = 6775;
-	};
-	2396C1353028D18E00C1A4EA /* SolitaireGameController.m:221 */ = {
+	2396C1243028D12F00C1A4EA /* SolitaireGameController.m:221 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -942,7 +915,34 @@
 		ignoreCount = 0;
 		lineNumber = 221;
 		location = Solitaire;
-		modificationTime = 808062148.990849;
+		modificationTime = 808096793.855442;
+		state = 2;
+	};
+	2396C1283028D13500C1A4EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 131";
+		rLen = 0;
+		rLoc = 8712;
+		rType = 0;
+		vrLen = 2856;
+		vrLoc = 6775;
+	};
+	2396C1353028D18E00C1A4EA /* SolitaireGameController.m:220 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		functionName = "-hitDrawPile";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 220;
+		location = Solitaire;
+		modificationTime = 808096793.856105;
 		state = 2;
 	};
 	2396C14D3028D26500C1A4EA /* PBXTextBookmark */ = {
@@ -950,7 +950,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 208";
 		rLen = 0;
-		rLoc = 8674;
+		rLoc = 8579;
 		rType = 0;
 		vrLen = 559;
 		vrLoc = 7778;
@@ -960,7 +960,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 137";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 433;
 		vrLoc = 6359;
@@ -970,7 +970,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 207";
 		rLen = 0;
-		rLoc = 8665;
+		rLoc = 8570;
 		rType = 0;
 		vrLen = 3324;
 		vrLoc = 7339;
@@ -980,7 +980,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 131";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 3658;
 		vrLoc = 4236;
@@ -990,7 +990,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 165";
 		rLen = 0;
-		rLoc = 7199;
+		rLoc = 7104;
 		rType = 0;
 		vrLen = 2236;
 		vrLoc = 5677;
@@ -1000,7 +1000,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 186";
 		rLen = 0;
-		rLoc = 8627;
+		rLoc = 8661;
 		rType = 0;
 		vrLen = 3475;
 		vrLoc = 8596;
@@ -1010,7 +1010,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 165";
 		rLen = 0;
-		rLoc = 7199;
+		rLoc = 7104;
 		rType = 0;
 		vrLen = 2295;
 		vrLoc = 4871;
@@ -1020,7 +1020,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 131";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 3333;
 		vrLoc = 5901;
@@ -1030,7 +1030,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 234";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 10814;
 		rType = 0;
 		vrLen = 3475;
 		vrLoc = 8596;
@@ -1040,7 +1040,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 59";
 		rLen = 0;
-		rLoc = 3299;
+		rLoc = 3198;
 		rType = 0;
 		vrLen = 3430;
 		vrLoc = 1340;
@@ -1050,7 +1050,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 167";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 3382;
 		vrLoc = 5147;
@@ -1060,7 +1060,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 49";
 		rLen = 0;
-		rLoc = 2342;
+		rLoc = 2195;
 		rType = 0;
 		vrLen = 3968;
 		vrLoc = 244;
@@ -1070,7 +1070,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 234";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 10814;
 		rType = 0;
 		vrLen = 3524;
 		vrLoc = 8592;
@@ -1080,7 +1080,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 167";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 2905;
 		vrLoc = 6566;
@@ -1090,7 +1090,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 49";
 		rLen = 0;
-		rLoc = 2342;
+		rLoc = 2195;
 		rType = 0;
 		vrLen = 3951;
 		vrLoc = 261;
@@ -1100,7 +1100,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 214";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 2454;
 		vrLoc = 8641;
@@ -1110,7 +1110,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 234";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 10814;
 		rType = 0;
 		vrLen = 3524;
 		vrLoc = 8592;
@@ -1120,7 +1120,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 31";
 		rLen = 0;
-		rLoc = 1617;
+		rLoc = 1470;
 		rType = 0;
 		vrLen = 3775;
 		vrLoc = 152;
@@ -1130,7 +1130,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 214";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 2464;
 		vrLoc = 8641;
@@ -1140,7 +1140,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 31";
 		rLen = 0;
-		rLoc = 1617;
+		rLoc = 1470;
 		rType = 0;
 		vrLen = 3733;
 		vrLoc = 9067;
@@ -1160,7 +1160,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 214";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 2464;
 		vrLoc = 8641;
@@ -1170,7 +1170,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 229";
 		rLen = 0;
-		rLoc = 10343;
+		rLoc = 11502;
 		rType = 0;
 		vrLen = 3615;
 		vrLoc = 7894;
@@ -1180,7 +1180,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 133";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 2905;
 		vrLoc = 6566;
@@ -1190,7 +1190,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 227";
 		rLen = 0;
-		rLoc = 9860;
+		rLoc = 11019;
 		rType = 0;
 		vrLen = 3366;
 		vrLoc = 7533;
@@ -1200,7 +1200,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 182";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 2720;
 		vrLoc = 7407;
@@ -1210,7 +1210,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 226";
 		rLen = 0;
-		rLoc = 9860;
+		rLoc = 11019;
 		rType = 0;
 		vrLen = 3144;
 		vrLoc = 7776;
@@ -1220,7 +1220,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 178";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 2681;
 		vrLoc = 7350;
@@ -1230,7 +1230,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 178";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 2681;
 		vrLoc = 7350;
@@ -1260,7 +1260,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 249";
 		rLen = 0;
-		rLoc = 10876;
+		rLoc = 12035;
 		rType = 0;
 		vrLen = 2603;
 		vrLoc = 11662;
@@ -1270,7 +1270,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 249";
 		rLen = 0;
-		rLoc = 10876;
+		rLoc = 12035;
 		rType = 0;
 		vrLen = 3706;
 		vrLoc = 0;
@@ -1290,7 +1290,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 249";
 		rLen = 0;
-		rLoc = 10876;
+		rLoc = 12035;
 		rType = 0;
 		vrLen = 2603;
 		vrLoc = 11662;
@@ -1310,7 +1310,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 212";
 		rLen = 0;
-		rLoc = 8674;
+		rLoc = 8579;
 		rType = 0;
 		vrLen = 477;
 		vrLoc = 8632;
@@ -1320,7 +1320,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 154";
 		rLen = 0;
-		rLoc = 6573;
+		rLoc = 6478;
 		rType = 0;
 		vrLen = 2223;
 		vrLoc = 5619;
@@ -1372,16 +1372,16 @@
 	239D646A3013BD9E0072024B /* SolitaireCard.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1506, 960}}";
-			sepNavSelRange = "{1292, 0}";
-			sepNavVisRange = "{143, 2315}";
+			sepNavSelRange = "{656, 0}";
+			sepNavVisRange = "{139, 2318}";
 			sepNavWindowFrame = "{{23, 63}, {1233, 995}}";
 		};
 	};
 	239D646B3013BD9E0072024B /* SolitaireCard.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1506, 3336}}";
-			sepNavSelRange = "{10780, 0}";
-			sepNavVisRange = "{9406, 3230}";
+			sepNavIntBoundsRect = "{{0, 0}, {1506, 3324}}";
+			sepNavSelRange = "{3869, 0}";
+			sepNavVisRange = "{2229, 3524}";
 			sepNavWindowFrame = "{{23, 66}, {596, 992}}";
 		};
 	};
@@ -1393,16 +1393,16 @@
 	239D65213013E1C90072024B /* SolitaireGameController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1506, 1236}}";
-			sepNavSelRange = "{213, 0}";
-			sepNavVisRange = "{213, 2209}";
+			sepNavSelRange = "{2862, 0}";
+			sepNavVisRange = "{677, 2436}";
 			sepNavWindowFrame = "{{1931, -238}, {1233, 800}}";
 		};
 	};
 	239D65223013E1C90072024B /* SolitaireGameController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1506, 4860}}";
-			sepNavSelRange = "{9004, 0}";
-			sepNavVisRange = "{8026, 3223}";
+			sepNavIntBoundsRect = "{{0, 0}, {1506, 5924}}";
+			sepNavSelRange = "{13625, 0}";
+			sepNavVisRange = "{12678, 3768}";
 		};
 	};
 	239D723C3029953E00849BCB /* PBXTextBookmark */ = {
@@ -1410,7 +1410,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 212";
 		rLen = 0;
-		rLoc = 8674;
+		rLoc = 8579;
 		rType = 0;
 		vrLen = 688;
 		vrLoc = 8579;
@@ -1430,7 +1430,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 200";
 		rLen = 173;
-		rLoc = 10973;
+		rLoc = 11007;
 		rType = 0;
 		vrLen = 668;
 		vrLoc = 9890;
@@ -1448,7 +1448,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 212";
 		rLen = 0;
-		rLoc = 8674;
+		rLoc = 8579;
 		rType = 0;
 		vrLen = 688;
 		vrLoc = 8579;
@@ -1478,7 +1478,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 200";
 		rLen = 173;
-		rLoc = 10973;
+		rLoc = 11007;
 		rType = 0;
 		vrLen = 668;
 		vrLoc = 9890;
@@ -1488,7 +1488,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 115";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 435;
 		vrLoc = 5718;
@@ -1498,7 +1498,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 154";
 		rLen = 0;
-		rLoc = 6573;
+		rLoc = 6478;
 		rType = 0;
 		vrLen = 3848;
 		vrLoc = 0;
@@ -1518,7 +1518,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 53";
 		rLen = 0;
-		rLoc = 4072;
+		rLoc = 4102;
 		rType = 0;
 		vrLen = 3658;
 		vrLoc = 0;
@@ -1548,7 +1548,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 154";
 		rLen = 0;
-		rLoc = 6573;
+		rLoc = 6478;
 		rType = 0;
 		vrLen = 3848;
 		vrLoc = 0;
@@ -1578,7 +1578,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 121";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 3070;
 		vrLoc = 0;
@@ -1598,7 +1598,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 234";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 10814;
 		rType = 0;
 		vrLen = 3034;
 		vrLoc = 8952;
@@ -1618,7 +1618,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 279";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 1545;
 		vrLoc = 11394;
@@ -1638,7 +1638,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 269";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 1942;
 		vrLoc = 10679;
@@ -1658,7 +1658,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 269";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 1962;
 		vrLoc = 10576;
@@ -1678,7 +1678,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 269";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 1587;
 		vrLoc = 11044;
@@ -1698,7 +1698,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 243";
 		rLen = 0;
-		rLoc = 12585;
+		rLoc = 12619;
 		rType = 0;
 		vrLen = 2057;
 		vrLoc = 9673;
@@ -1758,7 +1758,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 53";
 		rLen = 0;
-		rLoc = 4072;
+		rLoc = 4102;
 		rType = 0;
 		vrLen = 3658;
 		vrLoc = 0;
@@ -1810,7 +1810,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 165";
 		rLen = 27;
-		rLoc = 6932;
+		rLoc = 6837;
 		rType = 0;
 		vrLen = 236;
 		vrLoc = 6658;
@@ -1828,7 +1828,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 111";
 		rLen = 0;
-		rLoc = 8787;
+		rLoc = 8712;
 		rType = 0;
 		vrLen = 234;
 		vrLoc = 5141;
@@ -1842,7 +1842,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 165";
 		rLen = 27;
-		rLoc = 6932;
+		rLoc = 6837;
 		rType = 0;
 		vrLen = 236;
 		vrLoc = 6658;
@@ -1882,7 +1882,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 168";
 		rLen = 1;
-		rLoc = 10025;
+		rLoc = 10059;
 		rType = 0;
 		vrLen = 2770;
 		vrLoc = 8756;
@@ -1892,7 +1892,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 254";
 		rLen = 0;
-		rLoc = 12510;
+		rLoc = 13404;
 		rType = 0;
 		vrLen = 2942;
 		vrLoc = 8791;
@@ -1902,7 +1902,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 168";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 2153;
 		vrLoc = 5795;
@@ -1912,7 +1912,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 223";
 		rLen = 4;
-		rLoc = 9143;
+		rLoc = 10302;
 		rType = 0;
 		vrLen = 2962;
 		vrLoc = 0;
@@ -1932,7 +1932,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 203";
 		rLen = 0;
-		rLoc = 10865;
+		rLoc = 11038;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 7491;
@@ -1972,7 +1972,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 115";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 2962;
 		vrLoc = 2915;
@@ -1992,7 +1992,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 30";
 		rLen = 70;
-		rLoc = 857;
+		rLoc = 856;
 		rType = 0;
 		vrLen = 2881;
 		vrLoc = 0;
@@ -2002,7 +2002,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 115";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 2654;
 		vrLoc = 3272;
@@ -2012,7 +2012,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 278";
 		rLen = 0;
-		rLoc = 13913;
+		rLoc = 14036;
 		rType = 0;
 		vrLen = 2311;
 		vrLoc = 5290;
@@ -2022,7 +2022,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 168";
 		rLen = 1;
-		rLoc = 10025;
+		rLoc = 10059;
 		rType = 0;
 		vrLen = 2770;
 		vrLoc = 8756;
@@ -2032,7 +2032,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 254";
 		rLen = 0;
-		rLoc = 12510;
+		rLoc = 13404;
 		rType = 0;
 		vrLen = 2942;
 		vrLoc = 8791;
@@ -2111,7 +2111,7 @@
 		ignoreCount = 0;
 		lineNumber = 98;
 		location = Solitaire;
-		modificationTime = 808062148.991178;
+		modificationTime = 808096793.856526;
 		state = 2;
 	};
 	239D72EA3029C9F600849BCB /* PBXTextBookmark */ = {
@@ -2169,7 +2169,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 235";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 2813;
 		vrLoc = 8856;
@@ -2189,7 +2189,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 235";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 2813;
 		vrLoc = 8856;
@@ -2209,7 +2209,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 235";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 2730;
 		vrLoc = 8964;
@@ -2226,7 +2226,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 235";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 2730;
 		vrLoc = 8964;
@@ -2292,7 +2292,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
-		modificationTime = 808062148.991567;
+		modificationTime = 808096793.856903;
 		state = 2;
 		symbolName = objc_exception_throw;
 	};
@@ -2307,7 +2307,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = libobjc.A.dylib;
-		modificationTime = 808062148.99181;
+		modificationTime = 808096793.857155;
 		state = 2;
 		symbolName = __objc_error;
 	};
@@ -2322,7 +2322,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = Foundation;
-		modificationTime = 808062148.9920681;
+		modificationTime = 808096793.857393;
 		state = 2;
 		symbolName = "-[NSObject dealloc]";
 	};
@@ -2337,7 +2337,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		location = Foundation;
-		modificationTime = 808062148.992326;
+		modificationTime = 808096793.85771;
 		state = 2;
 		symbolName = "-[NSObject(NSObject) dealloc]";
 	};
@@ -2396,7 +2396,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 198";
 		rLen = 0;
-		rLoc = 11440;
+		rLoc = 11474;
 		rType = 0;
 		vrLen = 2736;
 		vrLoc = 8964;
@@ -2416,7 +2416,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 251";
 		rLen = 0;
-		rLoc = 10953;
+		rLoc = 12112;
 		rType = 0;
 		vrLen = 3270;
 		vrLoc = 10477;
@@ -2426,7 +2426,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 274";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 3479;
 		vrLoc = 6866;
@@ -2466,7 +2466,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 274";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 3530;
 		vrLoc = 6815;
@@ -2486,7 +2486,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 274";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 3479;
 		vrLoc = 6866;
@@ -2506,7 +2506,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 251";
 		rLen = 0;
-		rLoc = 10953;
+		rLoc = 12112;
 		rType = 0;
 		vrLen = 3270;
 		vrLoc = 10477;
@@ -2516,7 +2516,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 274";
 		rLen = 0;
-		rLoc = 12738;
+		rLoc = 12772;
 		rType = 0;
 		vrLen = 3479;
 		vrLoc = 6866;
@@ -2586,7 +2586,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 320";
 		rLen = 23;
-		rLoc = 14001;
+		rLoc = 14124;
 		rType = 0;
 		vrLen = 3309;
 		vrLoc = 13103;
@@ -2626,7 +2626,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 251";
 		rLen = 0;
-		rLoc = 10953;
+		rLoc = 12112;
 		rType = 0;
 		vrLen = 2135;
 		vrLoc = 5917;
@@ -2656,7 +2656,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 316";
 		rLen = 0;
-		rLoc = 16946;
+		rLoc = 17609;
 		rType = 0;
 		vrLen = 3032;
 		vrLoc = 11014;
@@ -2676,7 +2676,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 352";
 		rLen = 0;
-		rLoc = 16351;
+		rLoc = 17010;
 		rType = 0;
 		vrLen = 3685;
 		vrLoc = 8108;
@@ -2696,7 +2696,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 362";
 		rLen = 0;
-		rLoc = 16736;
+		rLoc = 17399;
 		rType = 0;
 		vrLen = 3350;
 		vrLoc = 13261;
@@ -2726,7 +2726,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 320";
 		rLen = 23;
-		rLoc = 14001;
+		rLoc = 14124;
 		rType = 0;
 		vrLen = 3309;
 		vrLoc = 13103;
@@ -2806,7 +2806,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 195";
 		rLen = 0;
-		rLoc = 7826;
+		rLoc = 7731;
 		rType = 0;
 		vrLen = 2304;
 		vrLoc = 6573;
@@ -2826,7 +2826,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 194";
 		rLen = 0;
-		rLoc = 8025;
+		rLoc = 7930;
 		rType = 0;
 		vrLen = 2441;
 		vrLoc = 6590;
@@ -2846,7 +2846,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 195";
 		rLen = 0;
-		rLoc = 7826;
+		rLoc = 7731;
 		rType = 0;
 		vrLen = 2304;
 		vrLoc = 6573;
@@ -2866,7 +2866,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 196";
 		rLen = 0;
-		rLoc = 8025;
+		rLoc = 7930;
 		rType = 0;
 		vrLen = 3233;
 		vrLoc = 7451;
@@ -2896,7 +2896,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 196";
 		rLen = 0;
-		rLoc = 8025;
+		rLoc = 7930;
 		rType = 0;
 		vrLen = 2345;
 		vrLoc = 5303;
@@ -2906,7 +2906,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 196";
 		rLen = 0;
-		rLoc = 8025;
+		rLoc = 7930;
 		rType = 0;
 		vrLen = 2345;
 		vrLoc = 5303;
@@ -2926,7 +2926,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 225";
 		rLen = 0;
-		rLoc = 8951;
+		rLoc = 8856;
 		rType = 0;
 		vrLen = 3039;
 		vrLoc = 7199;
@@ -2946,7 +2946,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 339";
 		rLen = 0;
-		rLoc = 14645;
+		rLoc = 14810;
 		rType = 0;
 		vrLen = 3435;
 		vrLoc = 13756;
@@ -2966,7 +2966,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 340";
 		rLen = 0;
-		rLoc = 14691;
+		rLoc = 14856;
 		rType = 0;
 		vrLen = 3412;
 		vrLoc = 13756;
@@ -2986,7 +2986,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 345";
 		rLen = 0;
-		rLoc = 15024;
+		rLoc = 15189;
 		rType = 0;
 		vrLen = 3767;
 		vrLoc = 12811;
@@ -3006,7 +3006,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 345";
 		rLen = 0;
-		rLoc = 15024;
+		rLoc = 15189;
 		rType = 0;
 		vrLen = 3749;
 		vrLoc = 12832;
@@ -3026,7 +3026,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 345";
 		rLen = 0;
-		rLoc = 15024;
+		rLoc = 15189;
 		rType = 0;
 		vrLen = 3705;
 		vrLoc = 13173;
@@ -3046,7 +3046,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 345";
 		rLen = 0;
-		rLoc = 15024;
+		rLoc = 15189;
 		rType = 0;
 		vrLen = 3705;
 		vrLoc = 13173;
@@ -3066,7 +3066,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 346";
 		rLen = 0;
-		rLoc = 15024;
+		rLoc = 15189;
 		rType = 0;
 		vrLen = 3661;
 		vrLoc = 13217;
@@ -3096,7 +3096,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 345";
 		rLen = 0;
-		rLoc = 15024;
+		rLoc = 15189;
 		rType = 0;
 		vrLen = 3705;
 		vrLoc = 13173;
@@ -3116,7 +3116,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 346";
 		rLen = 0;
-		rLoc = 15024;
+		rLoc = 15189;
 		rType = 0;
 		vrLen = 3661;
 		vrLoc = 13217;
@@ -3136,7 +3136,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 216";
 		rLen = 0;
-		rLoc = 9738;
+		rLoc = 9725;
 		rType = 0;
 		vrLen = 2392;
 		vrLoc = 8394;
@@ -3156,7 +3156,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 216";
 		rLen = 0;
-		rLoc = 9738;
+		rLoc = 9725;
 		rType = 0;
 		vrLen = 2392;
 		vrLoc = 8394;
@@ -3176,7 +3176,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 216";
 		rLen = 0;
-		rLoc = 9738;
+		rLoc = 9725;
 		rType = 0;
 		vrLen = 3571;
 		vrLoc = 1596;
@@ -3186,7 +3186,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 216";
 		rLen = 0;
-		rLoc = 9738;
+		rLoc = 9725;
 		rType = 0;
 		vrLen = 3571;
 		vrLoc = 1596;
@@ -3196,7 +3196,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 347";
 		rLen = 0;
-		rLoc = 15313;
+		rLoc = 15772;
 		rType = 0;
 		vrLen = 3494;
 		vrLoc = 12385;
@@ -3216,7 +3216,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 347";
 		rLen = 0;
-		rLoc = 15313;
+		rLoc = 15772;
 		rType = 0;
 		vrLen = 3567;
 		vrLoc = 12385;
@@ -3236,7 +3236,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 346";
 		rLen = 0;
-		rLoc = 15312;
+		rLoc = 15771;
 		rType = 0;
 		vrLen = 3615;
 		vrLoc = 13522;
@@ -3256,7 +3256,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 253";
 		rLen = 1;
-		rLoc = 11988;
+		rLoc = 12022;
 		rType = 0;
 		vrLen = 3410;
 		vrLoc = 8804;
@@ -3266,7 +3266,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 346";
 		rLen = 0;
-		rLoc = 15312;
+		rLoc = 15771;
 		rType = 0;
 		vrLen = 3615;
 		vrLoc = 13522;
@@ -3276,7 +3276,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 346";
 		rLen = 0;
-		rLoc = 15312;
+		rLoc = 15771;
 		rType = 0;
 		vrLen = 3615;
 		vrLoc = 13522;
@@ -3286,7 +3286,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 253";
 		rLen = 1;
-		rLoc = 11988;
+		rLoc = 12022;
 		rType = 0;
 		vrLen = 3410;
 		vrLoc = 8804;
@@ -3296,7 +3296,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15081;
+		rLoc = 15246;
 		rType = 0;
 		vrLen = 3619;
 		vrLoc = 13522;
@@ -3316,7 +3316,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 234";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 10814;
 		rType = 0;
 		vrLen = 3410;
 		vrLoc = 8804;
@@ -3326,7 +3326,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 216";
 		rLen = 0;
-		rLoc = 9738;
+		rLoc = 9725;
 		rType = 0;
 		vrLen = 3571;
 		vrLoc = 1596;
@@ -3336,7 +3336,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15081;
+		rLoc = 15246;
 		rType = 0;
 		vrLen = 3619;
 		vrLoc = 13522;
@@ -3346,7 +3346,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15081;
+		rLoc = 15246;
 		rType = 0;
 		vrLen = 3619;
 		vrLoc = 13522;
@@ -3356,7 +3356,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 234";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 10814;
 		rType = 0;
 		vrLen = 3410;
 		vrLoc = 8804;
@@ -3366,7 +3366,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 216";
 		rLen = 0;
-		rLoc = 9738;
+		rLoc = 9725;
 		rType = 0;
 		vrLen = 3571;
 		vrLoc = 1596;
@@ -3376,7 +3376,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15156;
+		rLoc = 15323;
 		rType = 0;
 		vrLen = 3649;
 		vrLoc = 13522;
@@ -3396,7 +3396,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15156;
+		rLoc = 15323;
 		rType = 0;
 		vrLen = 3641;
 		vrLoc = 13522;
@@ -3416,7 +3416,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15081;
+		rLoc = 15246;
 		rType = 0;
 		vrLen = 3649;
 		vrLoc = 13522;
@@ -3436,7 +3436,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15081;
+		rLoc = 15246;
 		rType = 0;
 		vrLen = 3649;
 		vrLoc = 13522;
@@ -3456,7 +3456,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15156;
+		rLoc = 15323;
 		rType = 0;
 		vrLen = 3645;
 		vrLoc = 13522;
@@ -3476,7 +3476,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 234";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 10814;
 		rType = 0;
 		vrLen = 3230;
 		vrLoc = 9406;
@@ -3486,7 +3486,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15156;
+		rLoc = 15323;
 		rType = 0;
 		vrLen = 3645;
 		vrLoc = 13522;
@@ -3496,7 +3496,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15156;
+		rLoc = 15323;
 		rType = 0;
 		vrLen = 3645;
 		vrLoc = 13522;
@@ -3506,7 +3506,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 234";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 10814;
 		rType = 0;
 		vrLen = 3230;
 		vrLoc = 9406;
@@ -3516,7 +3516,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15156;
+		rLoc = 15323;
 		rType = 0;
 		vrLen = 3609;
 		vrLoc = 13759;
@@ -3536,7 +3536,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 234";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 10814;
 		rType = 0;
 		vrLen = 3230;
 		vrLoc = 9406;
@@ -3546,7 +3546,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 216";
 		rLen = 0;
-		rLoc = 9738;
+		rLoc = 9725;
 		rType = 0;
 		vrLen = 3571;
 		vrLoc = 1596;
@@ -3556,7 +3556,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15156;
+		rLoc = 15323;
 		rType = 0;
 		vrLen = 3609;
 		vrLoc = 13759;
@@ -3566,7 +3566,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15156;
+		rLoc = 15323;
 		rType = 0;
 		vrLen = 3609;
 		vrLoc = 13759;
@@ -3576,7 +3576,7 @@
 		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
 		name = "SolitaireCard.m: 234";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 10814;
 		rType = 0;
 		vrLen = 3230;
 		vrLoc = 9406;
@@ -3586,7 +3586,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 216";
 		rLen = 0;
-		rLoc = 9738;
+		rLoc = 9725;
 		rType = 0;
 		vrLen = 3571;
 		vrLoc = 1596;
@@ -3596,7 +3596,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15156;
+		rLoc = 15323;
 		rType = 0;
 		vrLen = 3772;
 		vrLoc = 13217;
@@ -3616,7 +3616,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 344";
 		rLen = 0;
-		rLoc = 15081;
+		rLoc = 15246;
 		rType = 0;
 		vrLen = 3776;
 		vrLoc = 13217;
@@ -3636,7 +3636,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 331";
 		rLen = 0;
-		rLoc = 14290;
+		rLoc = 14455;
 		rType = 0;
 		vrLen = 3750;
 		vrLoc = 13304;
@@ -3656,7 +3656,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 338";
 		rLen = 0;
-		rLoc = 14466;
+		rLoc = 14631;
 		rType = 0;
 		vrLen = 3760;
 		vrLoc = 13304;
@@ -3686,7 +3686,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 106";
 		rLen = 0;
-		rLoc = 5003;
+		rLoc = 4902;
 		rType = 0;
 		vrLen = 3346;
 		vrLoc = 2359;
@@ -3696,7 +3696,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 310";
 		rLen = 1;
-		rLoc = 13458;
+		rLoc = 13404;
 		rType = 0;
 		vrLen = 3901;
 		vrLoc = 12811;
@@ -3716,7 +3716,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 109";
 		rLen = 0;
-		rLoc = 5081;
+		rLoc = 4980;
 		rType = 0;
 		vrLen = 3380;
 		vrLoc = 2358;
@@ -3736,7 +3736,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 106";
 		rLen = 0;
-		rLoc = 5003;
+		rLoc = 4902;
 		rType = 0;
 		vrLen = 3346;
 		vrLoc = 2359;
@@ -3756,7 +3756,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 334";
 		rLen = 0;
-		rLoc = 14264;
+		rLoc = 14429;
 		rType = 0;
 		vrLen = 3756;
 		vrLoc = 13297;
@@ -3776,7 +3776,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 337";
 		rLen = 0;
-		rLoc = 14472;
+		rLoc = 14637;
 		rType = 0;
 		vrLen = 3826;
 		vrLoc = 13297;
@@ -3796,7 +3796,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 370";
 		rLen = 0;
-		rLoc = 16825;
+		rLoc = 17488;
 		rType = 0;
 		vrLen = 3877;
 		vrLoc = 13297;
@@ -3816,7 +3816,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 230";
 		rLen = 0;
-		rLoc = 9031;
+		rLoc = 8936;
 		rType = 0;
 		vrLen = 2875;
 		vrLoc = 7159;
@@ -3836,7 +3836,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 317";
 		rLen = 1;
-		rLoc = 13461;
+		rLoc = 13407;
 		rType = 0;
 		vrLen = 3722;
 		vrLoc = 11842;
@@ -3856,7 +3856,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 317";
 		rLen = 1;
-		rLoc = 13461;
+		rLoc = 13407;
 		rType = 0;
 		vrLen = 3722;
 		vrLoc = 11842;
@@ -3866,7 +3866,7 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 317";
 		rLen = 1;
-		rLoc = 13461;
+		rLoc = 13407;
 		rType = 0;
 		vrLen = 3722;
 		vrLoc = 11842;
@@ -3916,10 +3916,1203 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 230";
 		rLen = 0;
-		rLoc = 9004;
+		rLoc = 8909;
 		rType = 0;
 		vrLen = 3223;
 		vrLoc = 8026;
+	};
+	239D7425302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 170;
+		vrLoc = 260;
+	};
+	239D7426302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D646A3013BD9E0072024B /* SolitaireCard.h */;
+		name = "SolitaireCard.h: 33";
+		rLen = 0;
+		rLoc = 656;
+		rType = 0;
+		vrLen = 2318;
+		vrLoc = 139;
+	};
+	239D7427302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
+		name = "SolitaireCard.m: 96";
+		rLen = 0;
+		rLoc = 3869;
+		rType = 0;
+		vrLen = 3524;
+		vrLoc = 2229;
+	};
+	239D7428302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SolitaireViewController.h */;
+		name = "SolitaireViewController.h: 58";
+		rLen = 0;
+		rLoc = 1483;
+		rType = 0;
+		vrLen = 1690;
+		vrLoc = 0;
+	};
+	239D7429302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 233";
+		rLen = 0;
+		rLoc = 10540;
+		rType = 0;
+		vrLen = 2619;
+		vrLoc = 7951;
+	};
+	239D742A302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 381";
+		rLen = 32;
+		rLoc = 17613;
+		rType = 0;
+		vrLen = 3301;
+		vrLoc = 16760;
+	};
+	239D742B302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 159";
+		rLen = 0;
+		rLoc = 6478;
+		rType = 0;
+		vrLen = 2527;
+		vrLoc = 6694;
+	};
+	239D742C302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 232";
+		rLen = 0;
+		rLoc = 10540;
+		rType = 0;
+		vrLen = 2110;
+		vrLoc = 8786;
+	};
+	239D742D302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SolitaireViewController.h */;
+		name = "SolitaireViewController.h: 36";
+		rLen = 0;
+		rLoc = 878;
+		rType = 0;
+		vrLen = 1725;
+		vrLoc = 0;
+	};
+	239D742E302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 231";
+		rLen = 0;
+		rLoc = 10540;
+		rType = 0;
+		vrLen = 2119;
+		vrLoc = 8774;
+	};
+	239D742F302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 393";
+		rLen = 0;
+		rLoc = 18509;
+		rType = 0;
+		vrLen = 3760;
+		vrLoc = 13892;
+	};
+	239D7430302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D646A3013BD9E0072024B /* SolitaireCard.h */;
+		name = "SolitaireCard.h: 33";
+		rLen = 0;
+		rLoc = 656;
+		rType = 0;
+		vrLen = 2318;
+		vrLoc = 139;
+	};
+	239D7431302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
+		name = "SolitaireCard.m: 96";
+		rLen = 0;
+		rLoc = 3869;
+		rType = 0;
+		vrLen = 3524;
+		vrLoc = 2229;
+	};
+	239D7432302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 231";
+		rLen = 0;
+		rLoc = 10540;
+		rType = 0;
+		vrLen = 3124;
+		vrLoc = 0;
+	};
+	239D7433302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 433";
+		rLen = 0;
+		rLoc = 20118;
+		rType = 0;
+		vrLen = 3301;
+		vrLoc = 16760;
+	};
+	239D7434302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 181";
+		rLen = 0;
+		rLoc = 8521;
+		rType = 0;
+		vrLen = 2548;
+		vrLoc = 7951;
+	};
+	239D7435302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SolitaireViewController.h */;
+		name = "SolitaireViewController.h: 58";
+		rLen = 0;
+		rLoc = 1483;
+		rType = 0;
+		vrLen = 1690;
+		vrLoc = 0;
+	};
+	239D7436302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 233";
+		rLen = 0;
+		rLoc = 10540;
+		rType = 0;
+		vrLen = 2619;
+		vrLoc = 7951;
+	};
+	239D7437302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 381";
+		rLen = 32;
+		rLoc = 17613;
+		rType = 0;
+		vrLen = 3301;
+		vrLoc = 16760;
+	};
+	239D7438302A3BA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65213013E1C90072024B /* SolitaireGameController.h */;
+		name = "SolitaireGameController.h: 98";
+		rLen = 0;
+		rLoc = 2862;
+		rType = 0;
+		vrLen = 2449;
+		vrLoc = 659;
+	};
+	239D743C302A3BD900849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 170;
+		vrLoc = 260;
+	};
+	239D743D302A3BD900849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65213013E1C90072024B /* SolitaireGameController.h */;
+		name = "SolitaireGameController.h: 98";
+		rLen = 0;
+		rLoc = 2862;
+		rType = 0;
+		vrLen = 2436;
+		vrLoc = 677;
+	};
+	239D743E302A3BD900849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65213013E1C90072024B /* SolitaireGameController.h */;
+		name = "SolitaireGameController.h: 98";
+		rLen = 0;
+		rLoc = 2862;
+		rType = 0;
+		vrLen = 2436;
+		vrLoc = 677;
+	};
+	239D743F302A3BD900849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 381";
+		rLen = 32;
+		rLoc = 17613;
+		rType = 0;
+		vrLen = 3310;
+		vrLoc = 16599;
+	};
+	239D7442302A3BE300849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 170;
+		vrLoc = 260;
+	};
+	239D7443302A3BE300849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 381";
+		rLen = 32;
+		rLoc = 17613;
+		rType = 0;
+		vrLen = 3310;
+		vrLoc = 16599;
+	};
+	239D7445302A3C1800849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 170;
+		vrLoc = 260;
+	};
+	239D7446302A3C1800849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 381";
+		rLen = 32;
+		rLoc = 17613;
+		rType = 0;
+		vrLen = 3310;
+		vrLoc = 16599;
+	};
+	239D7447302A3C1800849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 381";
+		rLen = 32;
+		rLoc = 17613;
+		rType = 0;
+		vrLen = 3310;
+		vrLoc = 16599;
+	};
+	239D7448302A3C1800849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 232";
+		rLen = 0;
+		rLoc = 10211;
+		rType = 0;
+		vrLen = 2688;
+		vrLoc = 7906;
+	};
+	239D744A302A3C3C00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 170;
+		vrLoc = 260;
+	};
+	239D744B302A3C3C00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 234";
+		rLen = 0;
+		rLoc = 10211;
+		rType = 0;
+		vrLen = 2566;
+		vrLoc = 7906;
+	};
+	239D744D302A3CC000849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 170;
+		vrLoc = 260;
+	};
+	239D744E302A3CC000849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SolitaireViewController.h */;
+		name = "SolitaireViewController.h: 38";
+		rLen = 0;
+		rLoc = 924;
+		rType = 0;
+		vrLen = 1690;
+		vrLoc = 0;
+	};
+	239D744F302A3CC000849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 230";
+		rLen = 0;
+		rLoc = 10211;
+		rType = 0;
+		vrLen = 3295;
+		vrLoc = 223;
+	};
+	239D7450302A3CC000849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 230";
+		rLen = 0;
+		rLoc = 10211;
+		rType = 0;
+		vrLen = 3295;
+		vrLoc = 223;
+	};
+	239D7451302A3CC000849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SolitaireViewController.h */;
+		name = "SolitaireViewController.h: 38";
+		rLen = 0;
+		rLoc = 924;
+		rType = 0;
+		vrLen = 1690;
+		vrLoc = 0;
+	};
+	239D7452302A3CC000849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 232";
+		rLen = 0;
+		rLoc = 10210;
+		rType = 0;
+		vrLen = 2087;
+		vrLoc = 9521;
+	};
+	239D7455302A3CDD00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 170;
+		vrLoc = 260;
+	};
+	239D7456302A3CDD00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 232";
+		rLen = 0;
+		rLoc = 10210;
+		rType = 0;
+		vrLen = 2087;
+		vrLoc = 9521;
+	};
+	239D7457302A3D5D00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 170;
+		vrLoc = 260;
+	};
+	239D7458302A3D5D00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 210";
+		rLen = 0;
+		rLoc = 9496;
+		rType = 0;
+		vrLen = 2087;
+		vrLoc = 9521;
+	};
+	239D7459302A3D5D00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 210";
+		rLen = 0;
+		rLoc = 9496;
+		rType = 0;
+		vrLen = 2087;
+		vrLoc = 9521;
+	};
+	239D745A302A3D5D00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15295;
+		rType = 0;
+		vrLen = 3952;
+		vrLoc = 12990;
+	};
+	239D745C302A3E2000849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 170;
+		vrLoc = 260;
+	};
+	239D745D302A3E2000849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 410";
+		rLen = 0;
+		rLoc = 19109;
+		rType = 0;
+		vrLen = 3284;
+		vrLoc = 16807;
+	};
+	239D745F302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	239D7460302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SolitaireAppDelegate.m */;
+		name = "SolitaireAppDelegate.m: 21";
+		rLen = 0;
+		rLoc = 447;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 258;
+	};
+	239D7461302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
+		name = "SolitaireCard.m: 246";
+		rLen = 0;
+		rLoc = 11700;
+		rType = 0;
+		vrLen = 1225;
+		vrLoc = 10891;
+	};
+	239D7462302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 112";
+		rLen = 0;
+		rLoc = 5167;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 4826;
+	};
+	239D7463302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		rLen = 0;
+		rLoc = 410;
+		rType = 1;
+	};
+	239D7464302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1045;
+		vrLoc = 0;
+	};
+	239D7465302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	239D7466302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 91";
+		rLen = 0;
+		rLoc = 4438;
+		rType = 0;
+		vrLen = 1716;
+		vrLoc = 3092;
+	};
+	239D7467302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	239D7468302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 91";
+		rLen = 0;
+		rLoc = 4438;
+		rType = 0;
+		vrLen = 996;
+		vrLoc = 3485;
+	};
+	239D7469302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 91";
+		rLen = 0;
+		rLoc = 4438;
+		rType = 0;
+		vrLen = 1070;
+		vrLoc = 3485;
+	};
+	239D746A302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SolitaireAppDelegate.m */;
+		name = "SolitaireAppDelegate.m: 21";
+		rLen = 0;
+		rLoc = 447;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 258;
+	};
+	239D746B302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15771;
+		rType = 0;
+		vrLen = 1637;
+		vrLoc = 14985;
+	};
+	239D746C302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 112";
+		rLen = 0;
+		rLoc = 5167;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 4826;
+	};
+	239D746D302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D646B3013BD9E0072024B /* SolitaireCard.m */;
+		name = "SolitaireCard.m: 246";
+		rLen = 0;
+		rLoc = 11700;
+		rType = 0;
+		vrLen = 1225;
+		vrLoc = 10891;
+	};
+	239D746E302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 348";
+		rLen = 0;
+		rLoc = 15811;
+		rType = 0;
+		vrLen = 1657;
+		vrLoc = 14449;
+	};
+	239D746F302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 112";
+		rLen = 0;
+		rLoc = 5167;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 4826;
+	};
+	239D7470302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 350";
+		rLen = 0;
+		rLoc = 15811;
+		rType = 0;
+		vrLen = 1682;
+		vrLoc = 14006;
+	};
+	239D7471302A3F9400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 428";
+		rLen = 0;
+		rLoc = 20092;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 16617;
+	};
+	239D7472302A3F9600849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: 'struct SolitaireMove' has no member named 'CFRange'";
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		rLen = 0;
+		rLoc = 351;
+		rType = 1;
+	};
+	239D7474302A3FA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 235;
+		vrLoc = 260;
+	};
+	239D7475302A3FA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: 'struct SolitaireMove' has no member named 'CFRange'";
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		rLen = 0;
+		rLoc = 351;
+		rType = 1;
+	};
+	239D7476302A3FA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 163;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 377;
+		vrLoc = 14875;
+	};
+	239D7477302A3FA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 230";
+		rLen = 0;
+		rLoc = 10210;
+		rType = 0;
+		vrLen = 2596;
+		vrLoc = 8174;
+	};
+	239D7478302A3FA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 3577;
+		vrLoc = 0;
+	};
+	239D7479302A3FA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 230";
+		rLen = 0;
+		rLoc = 10210;
+		rType = 0;
+		vrLen = 2596;
+		vrLoc = 8174;
+	};
+	239D747A302A3FA500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 3749;
+		vrLoc = 13193;
+	};
+	239D747C302A3FFD00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 163;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 461;
+		vrLoc = 15075;
+	};
+	239D747D302A3FFD00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 64";
+		rLen = 0;
+		rLoc = 2964;
+		rType = 0;
+		vrLen = 3973;
+		vrLoc = 604;
+	};
+	239D747F302A401600849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 345";
+		rLen = 163;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 15220;
+	};
+	239D7480302A401600849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 33";
+		rLen = 0;
+		rLoc = 1255;
+		rType = 0;
+		vrLen = 3882;
+		vrLoc = 262;
+	};
+	239D7482302A412900849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 345";
+		rLen = 163;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 15220;
+	};
+	239D7483302A412900849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 367";
+		rLen = 0;
+		rLoc = 17010;
+		rType = 0;
+		vrLen = 3970;
+		vrLoc = 13061;
+	};
+	239D7485302A41A200849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 345";
+		rLen = 163;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 15220;
+	};
+	239D7486302A41A200849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 429";
+		rLen = 0;
+		rLoc = 20092;
+		rType = 0;
+		vrLen = 3382;
+		vrLoc = 16284;
+	};
+	239D7488302A41D700849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 345";
+		rLen = 163;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 15220;
+	};
+	239D7489302A41D700849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 426";
+		rLen = 0;
+		rLoc = 20029;
+		rType = 0;
+		vrLen = 3387;
+		vrLoc = 16221;
+	};
+	239D748B302A421400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 345";
+		rLen = 163;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 15220;
+	};
+	239D748C302A421400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 426";
+		rLen = 0;
+		rLoc = 20029;
+		rType = 0;
+		vrLen = 3387;
+		vrLoc = 16221;
+	};
+	239D748D302A421400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 426";
+		rLen = 0;
+		rLoc = 20029;
+		rType = 0;
+		vrLen = 3387;
+		vrLoc = 16221;
+	};
+	239D748E302A421400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 233";
+		rLen = 0;
+		rLoc = 10500;
+		rType = 0;
+		vrLen = 2363;
+		vrLoc = 8703;
+	};
+	239D7491302A428C00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 345";
+		rLen = 163;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 15220;
+	};
+	239D7492302A428C00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 233";
+		rLen = 0;
+		rLoc = 10500;
+		rType = 0;
+		vrLen = 2050;
+		vrLoc = 11084;
+	};
+	239D7493302A428C00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 233";
+		rLen = 0;
+		rLoc = 10500;
+		rType = 0;
+		vrLen = 2050;
+		vrLoc = 11084;
+	};
+	239D7494302A428C00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 426";
+		rLen = 0;
+		rLoc = 20029;
+		rType = 0;
+		vrLen = 3943;
+		vrLoc = 13457;
+	};
+	239D7496302A429900849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 345";
+		rLen = 163;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 15220;
+	};
+	239D7498302A429D00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 345";
+		rLen = 163;
+		rLoc = 15189;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 15220;
+	};
+	239D7499302A429D00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 426";
+		rLen = 0;
+		rLoc = 20029;
+		rType = 0;
+		vrLen = 3943;
+		vrLoc = 13457;
+	};
+	239D749E302A433B00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15351;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 14929;
+	};
+	239D749F302A433B00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 352";
+		rLen = 0;
+		rLoc = 15767;
+		rType = 0;
+		vrLen = 3986;
+		vrLoc = 13457;
+	};
+	239D74A1302A434F00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15351;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 14929;
+	};
+	239D74A2302A434F00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 352";
+		rLen = 0;
+		rLoc = 15767;
+		rType = 0;
+		vrLen = 3986;
+		vrLoc = 13457;
+	};
+	239D74A4302A441500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15351;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 14929;
+	};
+	239D74A5302A441500849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 431";
+		rLen = 0;
+		rLoc = 19982;
+		rType = 0;
+		vrLen = 3244;
+		vrLoc = 17323;
+	};
+	239D74A7302A442F00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15351;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 14929;
+	};
+	239D74A8302A442F00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 431";
+		rLen = 0;
+		rLoc = 19982;
+		rType = 0;
+		vrLen = 3240;
+		vrLoc = 17323;
+	};
+	239D74AA302A444D00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15351;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 14929;
+	};
+	239D74AB302A444D00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 430";
+		rLen = 0;
+		rLoc = 19982;
+		rType = 0;
+		vrLen = 3244;
+		vrLoc = 17323;
+	};
+	239D74AD302A44A300849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15351;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 14929;
+	};
+	239D74AE302A44A300849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 443";
+		rLen = 0;
+		rLoc = 20553;
+		rType = 0;
+		vrLen = 3336;
+		vrLoc = 17067;
+	};
+	239D74B0302A44E400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15351;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 14929;
+	};
+	239D74B1302A44E400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 443";
+		rLen = 0;
+		rLoc = 20553;
+		rType = 0;
+		vrLen = 3242;
+		vrLoc = 2121;
+	};
+	239D74B2302A44E400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 443";
+		rLen = 0;
+		rLoc = 20553;
+		rType = 0;
+		vrLen = 3242;
+		vrLoc = 2121;
+	};
+	239D74B3302A44E400849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 202";
+		rLen = 0;
+		rLoc = 9243;
+		rType = 0;
+		vrLen = 2752;
+		vrLoc = 7392;
+	};
+	239D74B5302A456D00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15351;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 14929;
+	};
+	239D74B6302A456D00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 183";
+		rLen = 0;
+		rLoc = 8628;
+		rType = 0;
+		vrLen = 2801;
+		vrLoc = 6599;
+	};
+	239D74B9302A45CE00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 346";
+		rLen = 0;
+		rLoc = 15351;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 14929;
+	};
+	239D74BA302A45CE00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 183";
+		rLen = 0;
+		rLoc = 8628;
+		rType = 0;
+		vrLen = 2801;
+		vrLoc = 6599;
+	};
+	239D74BB302A45CE00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
+		name = "SolitaireViewController.m: 183";
+		rLen = 0;
+		rLoc = 8628;
+		rType = 0;
+		vrLen = 2801;
+		vrLoc = 6599;
+	};
+	239D74BC302A45CE00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 419";
+		rLen = 0;
+		rLoc = 19109;
+		rType = 0;
+		vrLen = 3387;
+		vrLoc = 17323;
+	};
+	239D74C7302A92DE00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 353";
+		rLen = 0;
+		rLoc = 15351;
+		rType = 0;
+		vrLen = 122;
+		vrLoc = 17515;
+	};
+	239D74C8302A92DE00849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 339";
+		rLen = 0;
+		rLoc = 14191;
+		rType = 0;
+		vrLen = 4055;
+		vrLoc = 13364;
+	};
+	239D74CB302A934600849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 353";
+		rLen = 0;
+		rLoc = 15351;
+		rType = 0;
+		vrLen = 117;
+		vrLoc = 17648;
+	};
+	239D74CC302A934600849BCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
+		name = "SolitaireGameController.m: 326";
+		rLen = 0;
+		rLoc = 13625;
+		rType = 0;
+		vrLen = 3768;
+		vrLoc = 12678;
 	};
 	23E9190F30212A3700B78ED7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -3956,7 +5149,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */;
 		name = "SolitaireViewController.m: 168";
 		rLen = 0;
-		rLoc = 10204;
+		rLoc = 10210;
 		rType = 0;
 		vrLen = 586;
 		vrLoc = 6629;
@@ -3966,24 +5159,24 @@
 		fRef = 239D65223013E1C90072024B /* SolitaireGameController.m */;
 		name = "SolitaireGameController.m: 156";
 		rLen = 0;
-		rLoc = 6358;
+		rLoc = 6263;
 		rType = 0;
 		vrLen = 611;
 		vrLoc = 4166;
 	};
 	28D7ACF60DDB3853001CB0EB /* SolitaireViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1506, 864}}";
-			sepNavSelRange = "{878, 0}";
-			sepNavVisRange = "{0, 1725}";
+			sepNavIntBoundsRect = "{{0, 0}, {1506, 844}}";
+			sepNavSelRange = "{924, 0}";
+			sepNavVisRange = "{0, 1690}";
 			sepNavWindowFrame = "{{339, -76}, {1233, 995}}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* SolitaireViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {749, 4176}}";
-			sepNavSelRange = "{359, 0}";
-			sepNavVisRange = "{260, 170}";
+			sepNavIntBoundsRect = "{{0, 0}, {1506, 3924}}";
+			sepNavSelRange = "{8628, 0}";
+			sepNavVisRange = "{6599, 2801}";
 			sepNavWindowFrame = "{{307, 62}, {1565, 995}}";
 		};
 	};
@@ -3996,8 +5189,8 @@
 			1D6058900D05DD3D006BFB54 /* Solitaire */,
 		);
 		breakpoints = (
-			2396C1243028D12F00C1A4EA /* SolitaireGameController.m:222 */,
-			2396C1353028D18E00C1A4EA /* SolitaireGameController.m:221 */,
+			2396C1243028D12F00C1A4EA /* SolitaireGameController.m:221 */,
+			2396C1353028D18E00C1A4EA /* SolitaireGameController.m:220 */,
 			239D72E83029C9F200849BCB /* SolitaireViewController.m:98 */,
 			239D731D3029CCEE00849BCB /* objc_exception_throw */,
 			239D731E3029CCF400849BCB /* __objc_error */,
@@ -4408,6 +5601,126 @@
 			239D7419302A0C8600849BCB /* PBXTextBookmark */ = 239D7419302A0C8600849BCB /* PBXTextBookmark */;
 			239D741A302A0C8600849BCB /* PBXTextBookmark */ = 239D741A302A0C8600849BCB /* PBXTextBookmark */;
 			239D741B302A0C8600849BCB /* PBXTextBookmark */ = 239D741B302A0C8600849BCB /* PBXTextBookmark */;
+			239D7425302A3BA500849BCB /* PBXTextBookmark */ = 239D7425302A3BA500849BCB /* PBXTextBookmark */;
+			239D7426302A3BA500849BCB /* PBXTextBookmark */ = 239D7426302A3BA500849BCB /* PBXTextBookmark */;
+			239D7427302A3BA500849BCB /* PBXTextBookmark */ = 239D7427302A3BA500849BCB /* PBXTextBookmark */;
+			239D7428302A3BA500849BCB /* PBXTextBookmark */ = 239D7428302A3BA500849BCB /* PBXTextBookmark */;
+			239D7429302A3BA500849BCB /* PBXTextBookmark */ = 239D7429302A3BA500849BCB /* PBXTextBookmark */;
+			239D742A302A3BA500849BCB /* PBXTextBookmark */ = 239D742A302A3BA500849BCB /* PBXTextBookmark */;
+			239D742B302A3BA500849BCB /* PBXTextBookmark */ = 239D742B302A3BA500849BCB /* PBXTextBookmark */;
+			239D742C302A3BA500849BCB /* PBXTextBookmark */ = 239D742C302A3BA500849BCB /* PBXTextBookmark */;
+			239D742D302A3BA500849BCB /* PBXTextBookmark */ = 239D742D302A3BA500849BCB /* PBXTextBookmark */;
+			239D742E302A3BA500849BCB /* PBXTextBookmark */ = 239D742E302A3BA500849BCB /* PBXTextBookmark */;
+			239D742F302A3BA500849BCB /* PBXTextBookmark */ = 239D742F302A3BA500849BCB /* PBXTextBookmark */;
+			239D7430302A3BA500849BCB /* PBXTextBookmark */ = 239D7430302A3BA500849BCB /* PBXTextBookmark */;
+			239D7431302A3BA500849BCB /* PBXTextBookmark */ = 239D7431302A3BA500849BCB /* PBXTextBookmark */;
+			239D7432302A3BA500849BCB /* PBXTextBookmark */ = 239D7432302A3BA500849BCB /* PBXTextBookmark */;
+			239D7433302A3BA500849BCB /* PBXTextBookmark */ = 239D7433302A3BA500849BCB /* PBXTextBookmark */;
+			239D7434302A3BA500849BCB /* PBXTextBookmark */ = 239D7434302A3BA500849BCB /* PBXTextBookmark */;
+			239D7435302A3BA500849BCB /* PBXTextBookmark */ = 239D7435302A3BA500849BCB /* PBXTextBookmark */;
+			239D7436302A3BA500849BCB /* PBXTextBookmark */ = 239D7436302A3BA500849BCB /* PBXTextBookmark */;
+			239D7437302A3BA500849BCB /* PBXTextBookmark */ = 239D7437302A3BA500849BCB /* PBXTextBookmark */;
+			239D7438302A3BA500849BCB /* PBXTextBookmark */ = 239D7438302A3BA500849BCB /* PBXTextBookmark */;
+			239D743C302A3BD900849BCB /* PBXTextBookmark */ = 239D743C302A3BD900849BCB /* PBXTextBookmark */;
+			239D743D302A3BD900849BCB /* PBXTextBookmark */ = 239D743D302A3BD900849BCB /* PBXTextBookmark */;
+			239D743E302A3BD900849BCB /* PBXTextBookmark */ = 239D743E302A3BD900849BCB /* PBXTextBookmark */;
+			239D743F302A3BD900849BCB /* PBXTextBookmark */ = 239D743F302A3BD900849BCB /* PBXTextBookmark */;
+			239D7442302A3BE300849BCB /* PBXTextBookmark */ = 239D7442302A3BE300849BCB /* PBXTextBookmark */;
+			239D7443302A3BE300849BCB /* PBXTextBookmark */ = 239D7443302A3BE300849BCB /* PBXTextBookmark */;
+			239D7445302A3C1800849BCB /* PBXTextBookmark */ = 239D7445302A3C1800849BCB /* PBXTextBookmark */;
+			239D7446302A3C1800849BCB /* PBXTextBookmark */ = 239D7446302A3C1800849BCB /* PBXTextBookmark */;
+			239D7447302A3C1800849BCB /* PBXTextBookmark */ = 239D7447302A3C1800849BCB /* PBXTextBookmark */;
+			239D7448302A3C1800849BCB /* PBXTextBookmark */ = 239D7448302A3C1800849BCB /* PBXTextBookmark */;
+			239D744A302A3C3C00849BCB /* PBXTextBookmark */ = 239D744A302A3C3C00849BCB /* PBXTextBookmark */;
+			239D744B302A3C3C00849BCB /* PBXTextBookmark */ = 239D744B302A3C3C00849BCB /* PBXTextBookmark */;
+			239D744D302A3CC000849BCB /* PBXTextBookmark */ = 239D744D302A3CC000849BCB /* PBXTextBookmark */;
+			239D744E302A3CC000849BCB /* PBXTextBookmark */ = 239D744E302A3CC000849BCB /* PBXTextBookmark */;
+			239D744F302A3CC000849BCB /* PBXTextBookmark */ = 239D744F302A3CC000849BCB /* PBXTextBookmark */;
+			239D7450302A3CC000849BCB /* PBXTextBookmark */ = 239D7450302A3CC000849BCB /* PBXTextBookmark */;
+			239D7451302A3CC000849BCB /* PBXTextBookmark */ = 239D7451302A3CC000849BCB /* PBXTextBookmark */;
+			239D7452302A3CC000849BCB /* PBXTextBookmark */ = 239D7452302A3CC000849BCB /* PBXTextBookmark */;
+			239D7455302A3CDD00849BCB /* PBXTextBookmark */ = 239D7455302A3CDD00849BCB /* PBXTextBookmark */;
+			239D7456302A3CDD00849BCB /* PBXTextBookmark */ = 239D7456302A3CDD00849BCB /* PBXTextBookmark */;
+			239D7457302A3D5D00849BCB /* PBXTextBookmark */ = 239D7457302A3D5D00849BCB /* PBXTextBookmark */;
+			239D7458302A3D5D00849BCB /* PBXTextBookmark */ = 239D7458302A3D5D00849BCB /* PBXTextBookmark */;
+			239D7459302A3D5D00849BCB /* PBXTextBookmark */ = 239D7459302A3D5D00849BCB /* PBXTextBookmark */;
+			239D745A302A3D5D00849BCB /* PBXTextBookmark */ = 239D745A302A3D5D00849BCB /* PBXTextBookmark */;
+			239D745C302A3E2000849BCB /* PBXTextBookmark */ = 239D745C302A3E2000849BCB /* PBXTextBookmark */;
+			239D745D302A3E2000849BCB /* PBXTextBookmark */ = 239D745D302A3E2000849BCB /* PBXTextBookmark */;
+			239D745F302A3F9400849BCB /* PBXTextBookmark */ = 239D745F302A3F9400849BCB /* PBXTextBookmark */;
+			239D7460302A3F9400849BCB /* PBXTextBookmark */ = 239D7460302A3F9400849BCB /* PBXTextBookmark */;
+			239D7461302A3F9400849BCB /* PBXTextBookmark */ = 239D7461302A3F9400849BCB /* PBXTextBookmark */;
+			239D7462302A3F9400849BCB /* PBXTextBookmark */ = 239D7462302A3F9400849BCB /* PBXTextBookmark */;
+			239D7463302A3F9400849BCB /* PBXTextBookmark */ = 239D7463302A3F9400849BCB /* PBXTextBookmark */;
+			239D7464302A3F9400849BCB /* PBXTextBookmark */ = 239D7464302A3F9400849BCB /* PBXTextBookmark */;
+			239D7465302A3F9400849BCB /* PBXTextBookmark */ = 239D7465302A3F9400849BCB /* PBXTextBookmark */;
+			239D7466302A3F9400849BCB /* PBXTextBookmark */ = 239D7466302A3F9400849BCB /* PBXTextBookmark */;
+			239D7467302A3F9400849BCB /* PBXTextBookmark */ = 239D7467302A3F9400849BCB /* PBXTextBookmark */;
+			239D7468302A3F9400849BCB /* PBXTextBookmark */ = 239D7468302A3F9400849BCB /* PBXTextBookmark */;
+			239D7469302A3F9400849BCB /* PBXTextBookmark */ = 239D7469302A3F9400849BCB /* PBXTextBookmark */;
+			239D746A302A3F9400849BCB /* PBXTextBookmark */ = 239D746A302A3F9400849BCB /* PBXTextBookmark */;
+			239D746B302A3F9400849BCB /* PBXTextBookmark */ = 239D746B302A3F9400849BCB /* PBXTextBookmark */;
+			239D746C302A3F9400849BCB /* PBXTextBookmark */ = 239D746C302A3F9400849BCB /* PBXTextBookmark */;
+			239D746D302A3F9400849BCB /* PBXTextBookmark */ = 239D746D302A3F9400849BCB /* PBXTextBookmark */;
+			239D746E302A3F9400849BCB /* PBXTextBookmark */ = 239D746E302A3F9400849BCB /* PBXTextBookmark */;
+			239D746F302A3F9400849BCB /* PBXTextBookmark */ = 239D746F302A3F9400849BCB /* PBXTextBookmark */;
+			239D7470302A3F9400849BCB /* PBXTextBookmark */ = 239D7470302A3F9400849BCB /* PBXTextBookmark */;
+			239D7471302A3F9400849BCB /* PBXTextBookmark */ = 239D7471302A3F9400849BCB /* PBXTextBookmark */;
+			239D7472302A3F9600849BCB /* PBXTextBookmark */ = 239D7472302A3F9600849BCB /* PBXTextBookmark */;
+			239D7474302A3FA500849BCB /* PBXTextBookmark */ = 239D7474302A3FA500849BCB /* PBXTextBookmark */;
+			239D7475302A3FA500849BCB /* PBXTextBookmark */ = 239D7475302A3FA500849BCB /* PBXTextBookmark */;
+			239D7476302A3FA500849BCB /* PBXTextBookmark */ = 239D7476302A3FA500849BCB /* PBXTextBookmark */;
+			239D7477302A3FA500849BCB /* PBXTextBookmark */ = 239D7477302A3FA500849BCB /* PBXTextBookmark */;
+			239D7478302A3FA500849BCB /* PBXTextBookmark */ = 239D7478302A3FA500849BCB /* PBXTextBookmark */;
+			239D7479302A3FA500849BCB /* PBXTextBookmark */ = 239D7479302A3FA500849BCB /* PBXTextBookmark */;
+			239D747A302A3FA500849BCB /* PBXTextBookmark */ = 239D747A302A3FA500849BCB /* PBXTextBookmark */;
+			239D747C302A3FFD00849BCB /* PBXTextBookmark */ = 239D747C302A3FFD00849BCB /* PBXTextBookmark */;
+			239D747D302A3FFD00849BCB /* PBXTextBookmark */ = 239D747D302A3FFD00849BCB /* PBXTextBookmark */;
+			239D747F302A401600849BCB /* PBXTextBookmark */ = 239D747F302A401600849BCB /* PBXTextBookmark */;
+			239D7480302A401600849BCB /* PBXTextBookmark */ = 239D7480302A401600849BCB /* PBXTextBookmark */;
+			239D7482302A412900849BCB /* PBXTextBookmark */ = 239D7482302A412900849BCB /* PBXTextBookmark */;
+			239D7483302A412900849BCB /* PBXTextBookmark */ = 239D7483302A412900849BCB /* PBXTextBookmark */;
+			239D7485302A41A200849BCB /* PBXTextBookmark */ = 239D7485302A41A200849BCB /* PBXTextBookmark */;
+			239D7486302A41A200849BCB /* PBXTextBookmark */ = 239D7486302A41A200849BCB /* PBXTextBookmark */;
+			239D7488302A41D700849BCB /* PBXTextBookmark */ = 239D7488302A41D700849BCB /* PBXTextBookmark */;
+			239D7489302A41D700849BCB /* PBXTextBookmark */ = 239D7489302A41D700849BCB /* PBXTextBookmark */;
+			239D748B302A421400849BCB /* PBXTextBookmark */ = 239D748B302A421400849BCB /* PBXTextBookmark */;
+			239D748C302A421400849BCB /* PBXTextBookmark */ = 239D748C302A421400849BCB /* PBXTextBookmark */;
+			239D748D302A421400849BCB /* PBXTextBookmark */ = 239D748D302A421400849BCB /* PBXTextBookmark */;
+			239D748E302A421400849BCB /* PBXTextBookmark */ = 239D748E302A421400849BCB /* PBXTextBookmark */;
+			239D7491302A428C00849BCB /* PBXTextBookmark */ = 239D7491302A428C00849BCB /* PBXTextBookmark */;
+			239D7492302A428C00849BCB /* PBXTextBookmark */ = 239D7492302A428C00849BCB /* PBXTextBookmark */;
+			239D7493302A428C00849BCB /* PBXTextBookmark */ = 239D7493302A428C00849BCB /* PBXTextBookmark */;
+			239D7494302A428C00849BCB /* PBXTextBookmark */ = 239D7494302A428C00849BCB /* PBXTextBookmark */;
+			239D7496302A429900849BCB /* PBXTextBookmark */ = 239D7496302A429900849BCB /* PBXTextBookmark */;
+			239D7498302A429D00849BCB /* PBXTextBookmark */ = 239D7498302A429D00849BCB /* PBXTextBookmark */;
+			239D7499302A429D00849BCB /* PBXTextBookmark */ = 239D7499302A429D00849BCB /* PBXTextBookmark */;
+			239D749E302A433B00849BCB /* PBXTextBookmark */ = 239D749E302A433B00849BCB /* PBXTextBookmark */;
+			239D749F302A433B00849BCB /* PBXTextBookmark */ = 239D749F302A433B00849BCB /* PBXTextBookmark */;
+			239D74A1302A434F00849BCB /* PBXTextBookmark */ = 239D74A1302A434F00849BCB /* PBXTextBookmark */;
+			239D74A2302A434F00849BCB /* PBXTextBookmark */ = 239D74A2302A434F00849BCB /* PBXTextBookmark */;
+			239D74A4302A441500849BCB /* PBXTextBookmark */ = 239D74A4302A441500849BCB /* PBXTextBookmark */;
+			239D74A5302A441500849BCB /* PBXTextBookmark */ = 239D74A5302A441500849BCB /* PBXTextBookmark */;
+			239D74A7302A442F00849BCB /* PBXTextBookmark */ = 239D74A7302A442F00849BCB /* PBXTextBookmark */;
+			239D74A8302A442F00849BCB /* PBXTextBookmark */ = 239D74A8302A442F00849BCB /* PBXTextBookmark */;
+			239D74AA302A444D00849BCB /* PBXTextBookmark */ = 239D74AA302A444D00849BCB /* PBXTextBookmark */;
+			239D74AB302A444D00849BCB /* PBXTextBookmark */ = 239D74AB302A444D00849BCB /* PBXTextBookmark */;
+			239D74AD302A44A300849BCB /* PBXTextBookmark */ = 239D74AD302A44A300849BCB /* PBXTextBookmark */;
+			239D74AE302A44A300849BCB /* PBXTextBookmark */ = 239D74AE302A44A300849BCB /* PBXTextBookmark */;
+			239D74B0302A44E400849BCB /* PBXTextBookmark */ = 239D74B0302A44E400849BCB /* PBXTextBookmark */;
+			239D74B1302A44E400849BCB /* PBXTextBookmark */ = 239D74B1302A44E400849BCB /* PBXTextBookmark */;
+			239D74B2302A44E400849BCB /* PBXTextBookmark */ = 239D74B2302A44E400849BCB /* PBXTextBookmark */;
+			239D74B3302A44E400849BCB /* PBXTextBookmark */ = 239D74B3302A44E400849BCB /* PBXTextBookmark */;
+			239D74B5302A456D00849BCB /* PBXTextBookmark */ = 239D74B5302A456D00849BCB /* PBXTextBookmark */;
+			239D74B6302A456D00849BCB /* PBXTextBookmark */ = 239D74B6302A456D00849BCB /* PBXTextBookmark */;
+			239D74B9302A45CE00849BCB /* PBXTextBookmark */ = 239D74B9302A45CE00849BCB /* PBXTextBookmark */;
+			239D74BA302A45CE00849BCB /* PBXTextBookmark */ = 239D74BA302A45CE00849BCB /* PBXTextBookmark */;
+			239D74BB302A45CE00849BCB /* PBXTextBookmark */ = 239D74BB302A45CE00849BCB /* PBXTextBookmark */;
+			239D74BC302A45CE00849BCB /* PBXTextBookmark */ = 239D74BC302A45CE00849BCB /* PBXTextBookmark */;
+			239D74C7302A92DE00849BCB /* PBXTextBookmark */ = 239D74C7302A92DE00849BCB /* PBXTextBookmark */;
+			239D74C8302A92DE00849BCB /* PBXTextBookmark */ = 239D74C8302A92DE00849BCB /* PBXTextBookmark */;
+			239D74CB302A934600849BCB /* PBXTextBookmark */ = 239D74CB302A934600849BCB /* PBXTextBookmark */;
+			239D74CC302A934600849BCB /* PBXTextBookmark */ = 239D74CC302A934600849BCB /* PBXTextBookmark */;
 			23E9190F30212A3700B78ED7 = 23E9190F30212A3700B78ED7 /* PBXTextBookmark */;
 			23E9191530212A3700B78ED7 = 23E9191530212A3700B78ED7 /* PBXTextBookmark */;
 			23E9197B30212DE200B78ED7 = 23E9197B30212DE200B78ED7 /* PBXTextBookmark */;

@@ -180,7 +180,6 @@
 	if (_drawPile->displayed < 1) return -1;
 	CGRect hitTest = drawPileCardFrames[0];
 	hitTest.origin.x = drawPileCardFrames[0].origin.x + ((_drawPile->displayed - 1) * SolitaireViewPadding);
-	hitTest.size.width = hitTest.origin.x + drawPileCardFrames[0].size.width;
 	if (CGRectContainsPoint(hitTest, point)) return _drawPile->index - 1;
 	return -1;
 }
@@ -191,7 +190,7 @@
 	return newPoint;
 }
 
-- (void)clicked:(CGPoint)atPoint {
+- (SolitaireSelection)clicked:(CGPoint)atPoint {
 	SolitaireSelection selection;
 	memset(&selection, 0, sizeof(SolitaireSelection));
 	selection.selection = SolitaireStackNone;
@@ -199,6 +198,7 @@
 	if ((pile = [self drawPileForPoint:atPoint]) != NULL) {
 		[controller hitDrawPile];
 		selection.index = -1;
+		selection.selection = SolitaireStackDrawPile;
 		goto sendSelection;
 	}
 	NSInteger drawnCard;
@@ -225,10 +225,12 @@
 	}
 	
 	sendSelection: [controller select:selection]; // saves lines, doesn't horribly murder control flow, valid-ish i'd say
+	return selection;
 }
 
 - (void)touchesEnded:(NSSet*)touches withEvent:(UIEvent*)event {
-	[self clicked:[self convertToCGPointFromUIKitPoint:[[touches anyObject] locationInView:self]]];
+	SolitaireSelection selection = [self clicked:[self convertToCGPointFromUIKitPoint:[[touches anyObject] locationInView:self]]];
+	if (((UITouch*)[touches anyObject]).tapCount == 2 && selection.selection == SolitaireStackNone) [controller sendAllCardsToFoundation];
 }
 
 - (void)showTime:(int)seconds {

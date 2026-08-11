@@ -17,6 +17,7 @@ typedef char SolitaireCardValue;
 typedef struct SolitaireCard SolitaireCard;
 
 typedef enum {
+	SolitaireNoValue,
 	SolitaireAce,
 	SolitaireTwo,
 	SolitaireThree,
@@ -29,8 +30,7 @@ typedef enum {
 	SolitaireTen,
 	SolitaireJack,
 	SolitaireQueen,
-	SolitaireKing,
-	SolitaireNoValue
+	SolitaireKing
 } SolitaireValue;
 
 typedef enum {

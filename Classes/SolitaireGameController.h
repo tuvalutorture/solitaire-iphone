@@ -95,6 +95,8 @@ typedef struct {
 
 - (void)clearSelection:(SolitaireSelection*)selection;
 
+- (void)sendAllCardsToFoundation;
+
 - (NSInteger)indexOfTableStack:(CFMutableArrayRef)theStack; // is it wasteful? yes. do i give two shits? no. i just want to stop the damn code duplication man. returns -1 on fail
 - (NSInteger)indexOfFoundation:(CFMutableArrayRef)theFoundation;
 @end

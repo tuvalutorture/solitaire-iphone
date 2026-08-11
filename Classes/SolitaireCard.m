@@ -93,6 +93,7 @@ CGImageRef createImageWithInvertedColour(CGImageRef source) {
 
 CGImageRef compositeCard(SolitaireCardValue card) { // pure, cg glory. make sure to load in your components first before running 
 	SolitaireValue value = card & SolitaireValueMask; 
+	if (value == 0) return NULL;
 	char suit;
 	switch ((card & SolitaireSuitMask)) {
 		case SolitaireSpade: suit = 0; break;
@@ -101,7 +102,7 @@ CGImageRef compositeCard(SolitaireCardValue card) { // pure, cg glory. make sure
 		case SolitaireDiamond: suit = 3; break;
 		default: break;
 	}
-	CGImageRef suitImage = suitImages[suit], numberImage = numberImages[value];
+	CGImageRef suitImage = suitImages[suit], numberImage = numberImages[value - 1];
 	CGFloat cardWidth = CGImageGetWidth(baseImage), cardHeight = CGImageGetHeight(baseImage);
 	
 	CGContextRef cardContext = CGBitmapContextCreate(NULL, cardWidth, cardHeight, 8, 0, colourSpace, kCGImageAlphaPremultipliedLast | kCGBitmapByteOrder32Big);

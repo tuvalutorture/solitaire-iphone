@@ -17,7 +17,7 @@ static SolitaireCard *sliceCardFromDrawPile(SolitaireDrawPile *pile) {
 	pile->index -= 1; pile->displayed -= 1;
 	if (pile->index == 0) pile->displayed = 0;
 	else if (pile->displayed == 0) {
-		pile->isPullingFromBelow = YES;
+		pile->isPullingFromBelow += 1;
 		pile->displayed = 1;
 		((SolitaireCard*)CFArrayGetValueAtIndex(pile->pile, pile->index - 1))->flipped = NO;
 	}
@@ -29,8 +29,7 @@ static SolitaireCard *sliceCardFromDrawPile(SolitaireDrawPile *pile) {
 	SolitaireCard *sourceCard = (SolitaireCard*)CFArrayGetValueAtIndex(source.selected, source.index);
 	SolitaireCard *receiverCard = CFArrayGetCount(receiver.selected) > 0 ? (SolitaireCard*)CFArrayGetValueAtIndex(receiver.selected, receiver.index) : NULL;
 	if (getSuit(sourceCard) != getSuit(receiverCard) && getSuit(receiverCard) != SolitaireNoSuit) return NO;
-	if (getValue(sourceCard) != getValue(receiverCard) + 1 && getValue(receiverCard) != SolitaireNoValue) return NO;
-	if (getValue(receiverCard) == SolitaireNoValue && getValue(sourceCard) != SolitaireAce) return NO;
+	if (getValue(sourceCard) != getValue(receiverCard) + 1) return NO;
 	CFRange range = CFRangeMake(source.index, CFArrayGetCount(source.selected) - source.index);
 	switch (source.selection) {
 		case SolitaireStackDrawPileDrawn: CFArrayAppendValue(receiver.selected, sourceCard); break;
@@ -61,7 +60,7 @@ static SolitaireCard *sliceCardFromDrawPile(SolitaireDrawPile *pile) {
 		getSuit(sourceCard) >> 2 == getSuit(receiverCard) || 
 		getSuit(receiverCard) >> 2 == getSuit(sourceCard) // soooooo much cleaner than checking all combos
 	) return NO;
-	if (getValue(sourceCard) != getValue(receiverCard) - 1) return NO;
+	if (getValue(sourceCard) != getValue(receiverCard) - 1 && getValue(receiverCard) != SolitaireNoValue) return NO;
 	if (receiverCard != (SolitaireCard*)CFArrayGetValueAtIndex(receiver.selected, CFArrayGetCount(receiver.selected) - 1)) return NO;
 	CFRange range = CFRangeMake(source.index, CFArrayGetCount(source.selected) - source.index);
 	switch (source.selection) {
@@ -117,7 +116,7 @@ static SolitaireCard *sliceCardFromDrawPile(SolitaireDrawPile *pile) {
 - (id)init {
 	self = [super init];
 	loadCardAssets();
-	for (int i = 0; i < 52; i++) deck[i] = newSolitaireCard((i % 13) | (SolitaireSpade << (i / 13)));	
+	for (int i = 0; i < 52; i++) deck[i] = newSolitaireCard(((i % 13) + 1) | (SolitaireSpade << (i / 13)));	
 	deloadCardAssets();
 	_foundations = CFArrayCreateMutable(NULL, 0, &kCFTypeArrayCallBacks);
 	for (int i = 0; i < 4; i++) {
@@ -233,6 +232,38 @@ static SolitaireCard *sliceCardFromDrawPile(SolitaireDrawPile *pile) {
 	[[_viewController gameView] drawDrawPile];
 }
 
+- (void)checkWin {
+	for (int i = 0; i < 4; i++) {
+		CFMutableArrayRef theFoundation = (CFMutableArrayRef)CFArrayGetValueAtIndex(_foundations, i);
+		if (CFArrayGetCount(theFoundation) < 1) return;
+		if (getValue((SolitaireCard*)CFArrayGetValueAtIndex(theFoundation, CFArrayGetCount(theFoundation) - 1)) != SolitaireKing) return;
+	}
+	
+	if (timeElapsed > 30) playerScore += 700000 / timeElapsed;
+	UIAlertView *theView = [[[UIAlertView alloc] initWithTitle:@"You Win!" message:[NSString stringWithFormat:@"Score: %d\nTime: %d seconds", playerScore, timeElapsed] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
+	[theView show];
+	
+	memset(&currentSelection, 0, sizeof(SolitaireSelection));
+	
+	[gameTimer invalidate];
+	gameTimer = nil;
+	
+	timeElapsed = -1;
+	
+	for (int i = 0; i < 4; i++) {
+		CFArrayRemoveAllValues((CFMutableArrayRef)CFArrayGetValueAtIndex(_foundations, i));
+		[[_viewController gameView] drawFoundation:i];
+	}
+	for (int i = 0; i < 7; i++) { 
+		CFArrayRemoveAllValues((CFMutableArrayRef)CFArrayGetValueAtIndex(_tableStacks, i));
+		[[_viewController gameView] drawTableStack:i];
+	}
+	
+	[[_viewController gameView] drawDrawPile];
+	[[_viewController gameView] showTime:-1];
+	[[_viewController gameView] showScore:-1];	
+}
+
 - (void)select:(SolitaireSelection)selection {
 	if (selection.selected == NULL) return;
 	setCurrentSelection:
@@ -286,39 +317,13 @@ static SolitaireCard *sliceCardFromDrawPile(SolitaireDrawPile *pile) {
 		default: break;
 	}
 	
-	for (int i = 0; i < 4; i++) {
-		CFMutableArrayRef theFoundation = (CFMutableArrayRef)CFArrayGetValueAtIndex(_foundations, i);
-		if (CFArrayGetCount(theFoundation) < 1) return;
-		if (getValue((SolitaireCard*)CFArrayGetValueAtIndex(theFoundation, CFArrayGetCount(theFoundation) - 1)) != SolitaireKing) return;
-	}
-	
-	if (timeElapsed > 30) playerScore += 700000 / timeElapsed;
-	UIAlertView *theView = [[[UIAlertView alloc] initWithTitle:@"You Win!" message:[NSString stringWithFormat:@"Score: %d\nTime: %d seconds", playerScore, timeElapsed] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
-	[theView show];
-
-	memset(&currentSelection, 0, sizeof(SolitaireSelection));
-	
-	[gameTimer invalidate];
-	gameTimer = nil;
-		
-	timeElapsed = -1;
-	
-	for (int i = 0; i < 4; i++) {
-		CFArrayRemoveAllValues((CFMutableArrayRef)CFArrayGetValueAtIndex(_foundations, i));
-		[[_viewController gameView] drawFoundation:i];
-	}
-	for (int i = 0; i < 7; i++) { 
-		CFArrayRemoveAllValues((CFMutableArrayRef)CFArrayGetValueAtIndex(_tableStacks, i));
-		[[_viewController gameView] drawTableStack:i];
-	}
-	
-	[[_viewController gameView] drawDrawPile];
-	[[_viewController gameView] showTime:-1];
-	[[_viewController gameView] showScore:-1];
+	[self checkWin];
 }
 
 
 - (void)clearSelection:(SolitaireSelection*)selection {
+	if (selection->selected != NULL && CFArrayGetCount(selection->selected) > 0) 
+		((SolitaireCard*)CFArrayGetValueAtIndex(selection->selected, selection->index))->selected = NO;
 	switch (selection->selection) {
 		case SolitaireStackTable: [[_viewController gameView] drawTableStack:[self indexOfTableStack:selection->selected]]; break;
 		case SolitaireStackFoundation: [[_viewController gameView] drawFoundation:[self indexOfFoundation:selection->selected]]; break;
@@ -331,6 +336,7 @@ static SolitaireCard *sliceCardFromDrawPile(SolitaireDrawPile *pile) {
 }
 
 - (void)undo:(id)sender {
+	[self clearSelection:&currentSelection];
 	if ([moves count] < 1) return;
 	id move = [moves lastObject];
 	SolitaireDrawPileMove *hit = [move isMemberOfClass:[SolitaireDrawPileMove class]] ? move : nil;
@@ -343,9 +349,15 @@ static SolitaireCard *sliceCardFromDrawPile(SolitaireDrawPile *pile) {
 	} else if (theMove->source.selection != SolitaireStackDrawPileDrawn) {
 		if (theMove->source.selection == SolitaireStackTable && CFArrayGetCount(theMove->source.selected) > 0) 
 			((SolitaireCard*)CFArrayGetValueAtIndex(theMove->source.selected, CFArrayGetCount(theMove->source.selected) - 1))->flipped = theMove->didRevealParent;
-		CFRange range = CFRangeMake(theMove->receiver.index + 1, CFArrayGetCount(theMove->receiver.selected) - theMove->receiver.index - 1);
-		CFArrayAppendArray(theMove->source.selected, theMove->receiver.selected, range);   
-		CFArrayReplaceValues(theMove->receiver.selected, range, NULL, 0);
+		CFRange range = CFRangeMake(theMove->receiver.index + 1, CFArrayGetCount(theMove->receiver.selected) - (theMove->receiver.index + 1));
+		if (range.length > 0) {
+			CFArrayAppendArray(theMove->source.selected, theMove->receiver.selected, range);   
+			CFArrayReplaceValues(theMove->receiver.selected, range, NULL, 0);
+		} else {
+			int lastIndex = CFArrayGetCount(theMove->receiver.selected) - 1;
+			CFArrayAppendValue(theMove->source.selected, CFArrayGetValueAtIndex(theMove->receiver.selected, lastIndex));
+			CFArrayRemoveValueAtIndex(theMove->receiver.selected, lastIndex);
+		}
 		switch (theMove->source.selection) {
 			case SolitaireStackTable: [[_viewController gameView] drawTableStack:[self indexOfTableStack:theMove->source.selected]]; break;
 			case SolitaireStackFoundation: [[_viewController gameView] drawFoundation:[self indexOfFoundation:theMove->source.selected]]; break;
@@ -361,7 +373,12 @@ static SolitaireCard *sliceCardFromDrawPile(SolitaireDrawPile *pile) {
 		SolitaireCard *theCard = (SolitaireCard*)CFArrayGetValueAtIndex(theMove->receiver.selected, index);
 		CFArrayRemoveValueAtIndex(theMove->receiver.selected, index);
 		CFArrayInsertValueAtIndex(_drawPile.pile, _drawPile.index++, theCard);
+		theCard->flipped = NO;
 		if (!_drawPile.isPullingFromBelow) _drawPile.displayed += 1;
+		else { 
+			_drawPile.isPullingFromBelow -= 1;
+			if (_drawPile.index - 2 >= 0) ((SolitaireCard*)CFArrayGetValueAtIndex(_drawPile.pile, _drawPile.index - 2))->flipped = YES;
+		}
 		switch (theMove->receiver.selection) {
 			case SolitaireStackTable: [[_viewController gameView] drawTableStack:[self indexOfTableStack:theMove->receiver.selected]]; break;
 			case SolitaireStackFoundation: [[_viewController gameView] drawFoundation:[self indexOfFoundation:theMove->receiver.selected]]; break;
@@ -374,6 +391,73 @@ static SolitaireCard *sliceCardFromDrawPile(SolitaireDrawPile *pile) {
 	if (playerScore < 0) playerScore = 0;
 	[[_viewController gameView] showScore:playerScore];
 	[moves removeLastObject];
+}
+
+- (void)sendAllCardsToFoundation {
+	[self clearSelection:&currentSelection];
+	BOOL moveWasMade = NO;
+	SolitaireMove *newMove;
+	do {
+		moveWasMade = NO;
+		SolitaireSelection baseSelection;
+		SolitaireSelection destination;
+		SolitaireCard *movedCard = NULL;
+		for (int i = 0; i < 7; i++) {
+			CFMutableArrayRef theStack = (CFMutableArrayRef)CFArrayGetValueAtIndex(_tableStacks, i);
+			if (CFArrayGetCount(theStack) < 1) continue;
+			SolitaireCard *card = (SolitaireCard*)CFArrayGetValueAtIndex(theStack, CFArrayGetCount(theStack) - 1);
+			for (int ii = 0; ii < 4; ii++) {
+				CFMutableArrayRef theFoundation = (CFMutableArrayRef)CFArrayGetValueAtIndex(_foundations, ii);
+				int foundationCount = CFArrayGetCount(theFoundation);
+				SolitaireCard *foundationCard = foundationCount > 0 ? (SolitaireCard*)CFArrayGetValueAtIndex(theFoundation, foundationCount - 1) : NULL;
+				if (getValue(card) == getValue(foundationCard) + 1 && (getSuit(card) == getSuit(foundationCard) || getSuit(foundationCard) == SolitaireNoSuit)) {
+					movedCard = card;
+					destination.selection = SolitaireStackFoundation;
+					destination.selected = theFoundation;
+					destination.index = foundationCount > 0 ? foundationCount - 1 : 0;
+					baseSelection.selection = SolitaireStackTable;
+					baseSelection.selected = theStack;
+					baseSelection.index = CFArrayGetCount(theStack) - 1;
+					break;
+				}
+			}
+			if (movedCard != NULL) goto moveCard;
+		}
+		
+		if (_drawPile.displayed < 1 || _drawPile.index < 1) continue;
+		SolitaireCard *card = (SolitaireCard*)CFArrayGetValueAtIndex(_drawPile.pile, _drawPile.index - 1);
+		for (int ii = 0; ii < 4; ii++) {
+			CFMutableArrayRef theFoundation = (CFMutableArrayRef)CFArrayGetValueAtIndex(_foundations, ii);
+			int foundationCount = CFArrayGetCount(theFoundation);
+			SolitaireCard *foundationCard = foundationCount > 0 ? (SolitaireCard*)CFArrayGetValueAtIndex(theFoundation, foundationCount - 1) : NULL;
+			if (getValue(card) == getValue(foundationCard) + 1 && (getSuit(card) == getSuit(foundationCard) || getSuit(foundationCard) == SolitaireNoSuit)) {
+				movedCard = card;
+				destination.selection = SolitaireStackFoundation;
+				destination.selected = theFoundation;
+				destination.index = foundationCount > 0 ? foundationCount - 1 : 0;
+				baseSelection.selection = SolitaireStackDrawPileDrawn;
+				baseSelection.selected = _drawPile.pile;
+				baseSelection.index = _drawPile.index - 1;
+				goto moveCard;
+			}
+		}
+		if (movedCard == NULL) continue;
+		
+		moveCard:
+		newMove = [SolitaireMove makeMoveFrom:baseSelection to:destination];
+		if (newMove == nil) continue;
+		if ((playerScore += newMove->pointsAwarded) < 0) playerScore = 0;
+		[moves addObject:newMove];
+		if (gameTimer == nil) gameTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(tickTime:) userInfo:nil repeats:YES];
+		if (baseSelection.selection == SolitaireStackDrawPileDrawn) sliceCardFromDrawPile(&_drawPile);
+		moveWasMade = YES;
+	} while (moveWasMade);
+	
+	for (int i = 0; i < 7; i++) [[_viewController gameView] drawTableStack:i];
+	for (int i = 0; i < 4; i++) [[_viewController gameView] drawFoundation:i];
+	[[_viewController gameView] drawDrawPile];
+	[[_viewController gameView] showScore:playerScore];
+	[self checkWin];
 }
 
 - (void)tickTime:(NSTimer*)timer {
